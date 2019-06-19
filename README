@@ -1,0 +1,42 @@
+AntiFam Production
+==================
+
+Welcome to the AntiFam production directory.  This is the real, live version of
+AntiFam so please be careful with it! The file gives some explanation of the structure
+and contents of the directory.
+
+Contents
+========
+
+The following directories should be found here:
+
+RELEASES - Contains all previous released versions of AntiFam
+PAPERS   - Contains copies of papers describing AntiFam plus relevant
+           data used when writing the papers
+SCRIPTS  - Contains perl scripts used for AntiFam
+ENTRIES  - Contains AntiFam entries
+
+Making releases
+===============
+
+AntiFam has been designed to be low maintenance as well as quick to make releases.
+To make a new release simply run the build_release.pl script.
+
+pfam3a% ./build_release.pl <version number>
+
+A new directory is created by this script for the release in RELEASES. 
+In that directory are several files including the AntiFam.tar.gz release
+bundle. Note that the relnotes file in this directory should be up to date
+before running this script as it is simply copied into the release directory.
+
+This zip file should be copied to the ftp site as in the example below
+
+pfam3a% cd /nfs/disk69/ftp/pub/databases/Pfam/AntiFam
+pfam3a% cp /warehouse/pfam01/antifam/RELEASES/3.0/AntiFam_3.0.tar.gz .
+
+It should also be copied to the "current" directory on the ftp site as AntiFam.tar.gz
+
+To do
+=====
+
+1) Incorporate type of action to be taken when protein matches an AntiFam entry.
