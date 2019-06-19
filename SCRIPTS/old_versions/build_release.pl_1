@@ -1,0 +1,87 @@
+#! /usr/local/bin/perl -w
+
+# Scripts to build a release of AntiFam
+
+my $antifam_root='/nfs/users/nfs_a/agb/AntiFam';
+my $seqdb='/lustre/scratch103/sanger/pfam-pipe/pfamseq27/pfamseq';
+
+my $release=shift @ARGV;
+
+if (! $release){
+    die "Please add release number to run this program!";
+}
+
+print STDERR "Creating new AntiFam release $release\n";
+my $release_dir="$antifam_root/RELEASES/$release";
+
+if (! -d $release_dir){
+    system("mkdir $release_dir");
+} else {
+    die "$release_dir already exists. Will not try and overwrite an existing release!";
+}
+
+# Get all seed files;
+opendir (DIR, "$antifam_root/ENTRIES")||die "Couldn't open directory $antifam_root/ENTRIES\n";
+my @list=readdir(DIR);
+closedir(DIR);
+
+# Remove . and .. directories 
+shift  @list;
+shift  @list;
+
+if (-e "$release_dir/AntiFam.seed"){
+    die "You appear to have already made $release_dir/AntiFam.seed";
+}
+
+my $num_entries=0;
+print STDERR "Catenating seed files\n";
+foreach my $file (@list){
+    if ($file =~ /(.*\.seed$)/){
+	system ("cat $antifam_root/ENTRIES/$file >> $release_dir/AntiFam.seed");
+	$num_entries++;
+    }
+}
+    
+# Should really strip out GA lines as these may be for previous HMMER releases!
+chdir $release_dir;
+
+# Make HMM library
+print STDERR "Building HMM library\n";
+system ("hmmbuild AntiFam.hmm AntiFam.seed");
+
+# Make binary HMM library
+system ("hmmpress AntiFam.hmm");
+
+# Copy relnotes to dir
+print STDERR "Copying relnotes file to release. Please make sure it is up to date!\n";
+system ("cp $antifam_root/relnotes $release_dir");
+
+
+# Create version file
+    open (DATE, 'date |') or die "Cannot run date command";
+    while(<DATE>){
+	$date=$_;
+    }
+    close DATE;
+    chomp $date;
+    open (FH, "> version") or die "Cannot write to file version";
+    print FH "AntiFam release: $release\nAntiFam families: $num_entries\nDate: $date\n";
+    close FH;
+
+# Make tar file
+print STDERR "Tar up release files:\n";
+    system("tar -cvf AntiFam_$release.tar AntiFam.seed AntiFam.hmm relnotes version");
+    if (-e "AntiFam_$release.tar"){
+	system("gzip AntiFam_$release.tar");
+    } else {
+	die "Failed to make tar file";
+    }
+
+# Carry out library searches
+print STDERR "Searching AntiFam against UniProt\n";
+system ("hmmsearch --noali -E 0.01 --domE 0.01 AntiFam.hmm $seqdb > AntiFam.output");
+
+chdir "..";
+# Find out how many hits are found in seqdb
+# perl -ne 'if (/^\s.*[A-Z]\S{5}\.\d/){print;}' AntiFam.output | wc -l
+
