@@ -1,0 +1,24 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_18
+#=GF AC   ANF00018
+#=GF DE   tRNA translation
+#=GF DO   Delete protein
+#=GF AU   Haft D, Eberhardt R
+#=GF SE   Haft D
+#=GF GA   25.00 25.00;
+#=GF TC   26.30 28.20;
+#=GF NC   22.90 22.90;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   Arises from an alignment of translated bacterial tRNA, tRNA09.
+#=GF SQ   8
+GBC_tRNA00054_frame_3/1-29       RGGGTGRRTGLKILRWVTTVRVRPPPSAP
+GCT_tRNA-Leu-3_frame_3/1-29      RSGGTGRRPGLKIPCSAMDVRVRFPPSAQ
+BTM_tRNA-Leu-5_frame_3/1-27      RGGGTGRHAWLRA.MW.ASARAGSSPALG
+BTM_tRNA-Leu-4_frame_3/1-28      RGGGIGRRSGLKI.RWGSQPRVGSSPIPG
+BTM_tRNA-Leu-1_frame_3/1-27      ESGGTGRRAGLRI.QW.AEARVGSSPTSR
+GBC_tRNA00046_frame_3/1-26       RCGGIGRRARLKI...VFLRECRFDPDHR
+GCT_tRNA-Leu-2_frame_3/1-29      RSSGTGKRPRLKIPCSAMDVQVRFLPSAP
+tRNA-Leu-2_frame_3/1-27          PDGGIGRHKGFKIPR..RSRCAGSSPAPG
+//

@@ -1,0 +1,24 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_27
+#=GF AC   ANF00027
+#=GF DE   Antisense to SAM riboswitch
+#=GF DO   Delete protein
+#=GF AU   Eberhardt R   
+#=GF SE   RF00634
+#=GF GA   27.00 27.00;
+#=GF TC   36.40 36.10;
+#=GF NC   23.10 18.30;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   Antisense overlap with RF00634, S-adenosyl methionine (SAM) riboswitch.
+#=GF SQ   8
+Nocardia_farcinica_I/1-38      SPRL.....PRPVGRRPGRHPEHPTA..EEGCRPASRGFALALMT
+Mycobacterium_smegma/1-43      TRACLAADGGIRQPLNLVITRGTPPR..LEGCRPASRGLSLALMT
+Salinispora_tropica_/1-40      GPRL.....PDARRARPGHHPGHPTANLDEGCRPASRGLSLALVT
+Kineococcus_radiotol/1-38      GPRL.....PAPRRHRPGRHPGHPAA..EEGCRPASRGLSLALMT
+Mycobacterium_vanbaa/1-40      DPRL...PYSRGRLLNLVVSRGTPPR..LEGCRPASRGLSLALMT
+Mycobacterium.2.6/1-33         PSRL..........LNLVITRGTPPR..LEGCRPASRGLTLALMT
+Nocardia_farcinica_I/1-37      S.AL.....AAPSSVRPGRHPEHPAA..EEGCRPASRGLALVLMT
+Janibacter.1.5/1-38            CRAC.....GRRSTLRLVFTRGTPPR..LEGCRPASRGLSLALMT
+//

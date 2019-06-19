@@ -1,0 +1,65 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_36
+#=GF AC   ANF00036
+#=GF DE   Antisense to RNaseP
+#=GF DO   Delete protein
+#=GF AU   Eberhardt R
+#=GF SE   RF00011
+#=GF GA   27.00 27.00;
+#=GF TC   32.20 32.20;
+#=GF NC   18.30 16.60;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   Antisense overlap with RF00011, RNaseP.
+#=GF SQ   49
+S.intermedius.1.7/1-69            ........SSVYCFQS.....................ECYVRFHAFRAPTKVWVASLRGLPRSTFCVSAKTTSLWHFQDY.............SSIS.RDVAVSSA...VTISR........................................P
+S.macedonicus.1.8/1-44            LGLISFDNHLSTVSSQ.....................DRLFGFQLSHAPTKVWVASLRGLPRSTS..........................................................................................
+S.porcinus.1.7/1-102              LGITSFDNHLSTVNSQ.....................DRRFVSRLSHAPTKVWVASLRGLPRSIFYVSIETASLWHFQKY.............SGIS.FDLAFFSA...VMSKTFLGLFFRLAQTLLASQPVLAWTFLIT...............
+S.equinus.2.8/1-66                ........................................................LEGFTAFHFLRFHKNFVTVAL................SELLWHIQGLSLFTRRNVSNTSLGLFVRLAQTLPASQPVLARTFL.................
+S.pluranimalium.1.6/1-77          ................................................LEGFTAFHFLGFPRNFVTVAL.SRLLWHIKDL.......................AILPAVTYHHTSLGLFFRLAQTLPASQPVLAWTFLIV.....SKYYAIIQK.
+S.uberis.1.9/1-50                 ..................................................................................................HIKRLSYFTCRNVF.YIPRLIVSPSTNTTGITASASMDFPHS.....ITILRDYPK.
+S.agalactiae.1.7/1-77             ........................................................LEGFTAFHFLDFPRNYVTVAL................SKLFRHIQRLSPFACRKIASYLPRLIFSPSTNTTGITASASMDFPHS.....ISILRDYPK.
+E.faecium.2.11/1-112              SISHVLYFAFPGRKNKAVTIYLQLYCL..........FVLFFFQTKSAPTIVWVARSRGLPRSTGWVSPAASSLWHFQGY.............LSIA.EALACFPA...VTPKSTLAYGFAKHEHYRHHSLCEHGLSSA................
+S.equinus.2.4/1-60                .......................................LVRFQLSHAPTKVWVASLRGLPRSTFYVSIKTSSLWHFQSY.............SGIS.KDLAFSLA...V.MCQTH....................................P..
+S.phocae.1.7/1-47                 .......................................LVRFQLSRAPTKVWVASLRGLPRSISHVSIKTASLWHFQKY.............CGIS.K.....................................................T..
+S.macedonicus.1.10/1-39           ..............................................................................................................HQKDVPRLIDSPSTNTTGITASASMDFPHG.....IKIPRDYPK.
+E.faecalis.1.9/1-56               .............................................KSAPTIVWVARSRGLPRSTDGVSHIASSLWHFQGY.............FDIV.ETLVIFPA...VTLKEYLSL.....................................
+S.pluranimalium.1.8/1-63          ...................................................................KLRHCGT...................FKVTMAYQGLSHFTCRNVSSYVPRLIFSPSTNTTGITASASMDFPHS.....IKILRDYPK.
+S.parauberis.1.8/1-42             L......................................VLVSNLFHAPTKVWVASLRGLPRSISYVSIETASLWHFQKY...........................................................................
+S.mutans.1.7/1-58                 .......SSVYCLCSQ.....................KRPFFFQLFHAPTKVWVASLRGLPRSTFYVSIKATSLWHFQNY.............SGLS.K.....................................................T..
+S.macacae.1.10/1-62               V.LSSLIIICLLLCSQ.....................KRLFFFQLFRAPTKVWVASLRGLPRSTFYVSIKTTSLWHFQDD.............SHIS..........................................................
+S.porcinus.1.6/1-76               ........................................................LEGFTAFHFLRFHRNCVTVAL................SEILRHIIRLSLFFRRNVK.DIPRLIFSPSTNTTGITASASMDFPHN.....LKSYAIIQK.
+Bacillus_weihensteph.1/1-79       AMFCSFVLQTAHASYS........GGNHLSTGYENLSFSVVHFLGKDSPTIIWVSRSWGLPRSTPIISSRTSSLWHFKGS.............QTISERT.......................................................
+Exiguobacterium_sibi.1/1-115      CCKRFDPHTWATIIYLRIYIR................SPSRSVPLRKFPYQIWVSRSWGLPRSTLTVSSKAPSLWHFQEV.............SAIS.EDLGVPSA....VSTTLPTLIFSCSTITTTIAGCASMDFPQS.....TEVPRNCPN.
+Geobacillus_thermode.1/1-111      SSIYRQHASPV..........................LPSVHFLREGAPTIIWVSRSWGLPRSTSKVSLRGPSLWHFQGN.............RTISAFGRRFFPRRQPSRSQTALAYGFARHEHYGHLSTVRAWTFLYG.....RNRPQRLPEH
+S.infantis.1.10/1-45              ..............QS.....................EYYVRFRALHAPTKIWVASLRGLPRSTLSVSRETSSLWHFQSY...........................................................................
+S.phocae.1.6/1-76                 ........................................................LEGFTAFHFSRFHKNCVTVAL................SEILWHIKDLASSFAVMCK.HIPRLIFSPSTNTTGITASASMDFPHS.....IKILRDYPK.
+S.parasanguinis.1.11/1-46         ........................................................LEGFTAFHFLGFPKNYVTVAL................SELLEPIQRLSSFTRRNLNIKSLGL.....................................
+S.uberis.1.6/1-99                 L............NSQ.....................DSSFVSKLSHAPTKVWVASLRGLPRSIFYVSIKTSSLWHFQGY.............FSIS.KDLAILPA...VMYFTSLGLLFRLAQTLLASQPVLAWTFLIV.....LQYYAIIQK.
+S.hyointestinalis.1.10/1-58       ..................................................................VSLKTTSLWHF................SDLLEHIKDLALLIAVRYR.YLPRLIFSPSTNTTGITASASMDFPHG.....I.........
+S.ferus.1.7/1-109                 A.LPPSIIICLLLMQS.....................GKTVRFQLSHAPTKVWVASLRGLPRSTFYVSIKTTSLWHFQDN.............SDLS.EDLVILSA...VTCHHVPRLIFSSSTNTTGITASASMDFPHG.....YPMRLSKN..
+S.parasanguinis.1.7/1-36          ........SSVYCFQS.....................EYYVRFHVFHAPTKVWVASLRGLPRSTF..........................................................................................
+Leuconostoc_mesenter.1/1-101      VRSNEPY..............................RPSLHFTRPAAPTKSLGCPFVGFTSSQILAFTSIYVSMAP................SSLFRHSLSLSPFDCRNI..TVPGFIFYPSTNTTPISECTSMDLPHV.....RNITRNYPI.
+S.thermophilus.1.6/1-79           ........................................................LEGFTAFHFLGFPKNSVTVAL................SELLKPIRRLSQFARRNLKIKSLGLLIRLAQTLLASQPVLAWTFLMED....LLATMRLSKN
+S.acidominimus.1.9/1-63           ...................................................................KLRHCGTF..................QTYSNISCDLALSIAVTHC.YVPRLIGSPSTNTTGITAGASMDFPHG.....RFLPCDYPK.
+S.orisratti.1.5/1-61              .......................................TVHFQLSHAPTKVWVASLRGLPRSIFYVSIKTTSLWHFQSY.............SDIS.YDLAILLA...VGQKRLP....................................P..
+S.acidominimus.1.13/1-71          .......SSVYCLCSQ.....................ESSFCFRLSHAPTKIWVASLRGLPRSTFYVSIKTPSLWHFSDLLEHILRLSSFNRRNALL.R.....................................................P..
+S.cristatus.1.6/1-104             ........SSVYCFQS.....................ECYVRFHAFRAPTKVWVASLRGLPRSTSSVSRRTTSLWHFQTY.............SDLS.KDLAFSVA...VTDCSVPRLIVSPSTNTTSITAGASMDFPHE....NIKSSRDYPK.
+S.parauberis.1.9/1-51             .................................................................................................NISEDLARSFAVMHF.CIPRLIFSPSTNTTGITAGASMDFPHS.....IEILRDYPK.
+B.brevis.1.10/1-136               SSRKCYKPGSVSPVLQAGRIPRTKSGSHLSMASEDTIRPFRLIPSGRFPYQIWVSRSQGLPRSIFSVARKATFLWHFQRTRASE.........RALSTPSARLAPHLP..........WLAPGTNTPSISAWASLDFPLPPIAETIAAAATRISC
+S.infantis.1.9/1-68               ........................................................LEGFTAFHSLCFQRDFVTVAL................SELLKHIRKLSLFTRRNDF.SSLGLWFRLAQTLQASQPVLAWTFLMK.............R.
+S.parauberis.1.7/1-43             ........................................................LEGFTAFHFLRFHRNCVTVAL................SEILKHIRRLSSFFRRNA.........................FLHP...............
+Bacillus.2.10/1-76                SSIYRASSV............................PLSVQFLQESAPTIIWVSHSWGLPRSTLHVSKQASSLWHFQEV.............STIS.KDLGFPSA...VSLNSCLTLFFQ..................................
+B.subtilis.1.8/1-50               .............................................EGSPTKIWVSRSRGLPRSTLTISSETSSLWHFQGY.............SAIS.EDVGFFPA...VSL...........................................
+Bacillus.1.10/1-97                SVSHVLFLRTASDGSSRTPAAIIYLRNNCFV......LLLVEFLKEGAPTLFWVSRSWGLPRSTLAISCKTPSLWHFQGI.............HTISIGLRCFPCR.......................................QSAEADCPSL
+S.intermedius.1.12/1-77           ........................................................LEGFTAFHFLRFCKNYVTVAL................SGLFQHIQRRSCFVRRNDF.SSLGLLFHLAQTLRASQPVLAWTFLMK.....IKYSHAIIQK
+Lactobacillus_sakei_.1/1-84       ..............................................DAPTKVWVTRSRGLPRSIVWVSPNAPSLWHY................LRILTHDRSFSAFSAVTIK...VPWLIGPGTNTTSISACAGMDLPQP.....TDVDRDYSR.
+Bacillus_clausii_KSM.1/1-66       ASYSGDNHLSTNCFVF.....................SVPFIFRLKNAPTIVWVSRSRGLPRSTLPVSKQTTSLWHFQGV.............HALSIWT.......................................................
+Bacillus.3.10/1-62                GGNHLSTDIKSV.........................LLLVHFLRESAPTIIWVSRSRGLPRSTLPISGKAPSLWHFQGI.............HAISRRT.......................................................
+Streptococcus_suis_9.1/1-97       TV...................................RISVHFHPSHAPTKVWVASLRGLPRSIFYVSIKTSSLWHF................QIYSDISKDLAILTAVTPK.GVPRLIDSPSTNTTGISASASMDFPHG.....RKLPRDYPK.
+S.phocae.1.8/1-39                 ....................................................CASTSLGL..........................................................FFRLAQTLLASQPVLAWTFLIV.....SKYYAIIQK.
+Bacillus_licheniform.1/1-75       SSIYRVNSV............................LPSVHFRPEGSPTKIWVSRSRGLPRSTLTISSETSSLWHFQGY.............SAISIKDVGFFPA...VSLLQGCPSL....................................
+Bacillus_halodurans_.1/1-76       PSVYRSKTSV...........................LLSVHFLQEGSPTNFWVSRSRGLPRSTPSVSKRTTSLWHFQRH.............HTIFMMNVGAYLAVSPVLRTRLP.......................................
+S.parauberis.1.11/1-39            ....................................................CISASLGL..........................................................FFRLAQTLPASQPVLAWTFLIV.....LKYYAIIQK.
+//

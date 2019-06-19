@@ -1,0 +1,32 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_30
+#=GF AC   ANF00030
+#=GF DE   Overlaps tmRNA, same strand
+#=GF DO   Delete protein
+#=GF AU   Eberhardt R
+#=GF SE   RF00023
+#=GF GA   27.00 27.00;
+#=GF TC   31.40 68.50;
+#=GF NC   17.80 15.60;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild -F HMM_ls SEED
+#=GF BM   hmmcalibrate --seed 0 HMM_ls
+#=GF BM   hmmbuild -f -F HMM_fs SEED
+#=GF BM   hmmcalibrate --seed 0 HMM_fs
+#=GF CC   Overlaps with RF00023, tmRNA, in the same strand.
+#=GF SQ   13
+Desulfovibrio_desulf/1-40      G.RTGFDGDKEAGVAGRGAAGLV.....KSGTNVIANNDYEYAMAA
+Haemophilus_somnus_1/1-45      GADFGFDGISEAQGARRGAVGLVNKPQNNSRKRRTIRFSSL.ITCS
+Actinobacillus_pleur/1-45      GADSGFDGISEVQGARRGAVGLVNKPQKNSRKRRTIRFSSL.ITCS
+Shewanella_amazonens/1-40      GGDSGFDGIRETPGACRGAVGLV.....KSRKVIVANDDNY.ALAA
+Vibrio_fischeri_ES11/1-40      GADSGFDGNFETRGACRGAVGHV.....KSRKKIVANDENY.ALAA
+Shewanella_loihica_P/1-40      GGDSGFDKIHETLGACRGAVGLV.....KSRTVIVANDDNY.ALAA
+Actinobacillus_succi/1-45      GADSGFDGIGEAQGARRGAVGLVNKPQKNSRKRRTIRFSSL.ITCI
+Shewanella.1.1/1-40            GGDSGFDRIHETLGACRGAVGLV.....KSRKVIVANDDNY.ALAA
+Cronobacter_sakazaki/1-40      GADSGFDGIRETQGACRGAVGLV.....KSRKKIVANDENY.ALAA
+Shewanella_frigidima/1-40      GGDSGFDRIHETQGACRGAVGLV.....KSRTVIVANDSNY.SLAA
+Shewanella_putrefaci/1-40      GGDSGFDRIHETLGACRGAVGLV.....KSRTVIVANDDNY.ALAA
+P.mirabilis.1.1/1-41           GADSGFDGICETQGACRGAVGLV.....KSRKKIVANDNQYKALAA
+Lawsonia_intracellul/1-40      G.RTGFDGDVETKVAGRGAAGLV.....KSGNNVIANNNYDYALAA
+//

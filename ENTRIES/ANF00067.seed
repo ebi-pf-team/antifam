@@ -1,0 +1,25 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_67
+#=GF AC   ANF00067
+#=GF DE   Translation of non-protein-coding upstream region of an enzyme
+#=GF DO   Delete protein
+#=GF AU   Hoeps W
+#=GF SE   Pfam-B_4250 (release 23.0)
+#=GF GA   19.20 19.20;
+#=GF TC   22.60 19.30;
+#=GF NC   18.30 17.30;
+#=GF TX   Bacteria; 
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 26740544 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF WK   Domain_of_unknown_function
+#=GF DR   INTERPRO; IPR021472;
+#=GF CC   This entry was formerly Pfam entry PF11323. It overlaps a region upstream
+#=GF CC   of an enzyme involved in processing mRNA 5'-untranslated regions. DNA
+#=GF CC   sequence alignments show an abundance of frameshifts and direct repeats.
+#=GF CC   Most likely, it is a non-protein family.
+#=GF SQ   2
+Q4L879_STAHJ/11-46             IIFSQNLFRCPTPA..RMTRFEK..SLIQAHFQISQ..........LLTK
+Q2FZH0_STAA8/1-50              MIFSQNLFRRPTPTYIVCRNWESNFSLLGPTPQLALPVEFLFEILYVGAP
+#=GC seq_cons                  hIFSQNLFRpPTPs..hhppaEp..SLltsp.Qlu...........lhs.
+//

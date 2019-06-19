@@ -1,0 +1,24 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_31
+#=GF AC   ANF00031
+#=GF DE   Antisense to tmRNA
+#=GF DO   Delete protein
+#=GF AU   Eberhardt R
+#=GF SE   RF00023
+#=GF GA   27.00 27.00;
+#=GF TC   34.00 38.90;
+#=GF NC   21.30 21.00;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   Antisense overlap with RF00023, tmRNA.
+#=GF SQ   8
+Xanthomonas_oryzae_p/1-47      WWRWAESNRRPEALHPQHYMLSPPLDLIPRQHGWQSAPENQPALSNR
+O.sativa.3.6/1-45              WWRWAELNRRPKALHPQHYMLSSPLDLVPEQHGARSASGNQPVVF..
+Cronobacter_sakazaki/1-39      WWSWRELNPRPKFLHPRYYMLSPVFTFAWQLR......TDTPLPD..
+Actinobacillus_succi/1-39      WWSWRELNPRPKLLYLQHYTFSLVFNFIYPLR......TDTRRIN..
+Stenotrophomonas_mal/1-45      WWRWAELNRRPKALHPQHYMLSSPLDLVPEQHGVQSASGNQPVVF..
+P.mirabilis.1.7/1-39           WWSWRELNPRPKFLHPRHYMLSLVFKFTYLLR......TDTPQIS..
+S.glossinidius.1.7/1-39        WWSWRDLNPRPEFLRLRHYMLSPVFTFTCQLR......TDTPLTN..
+Actinobacillus_pleur/1-39      WWSWGDLNPRPKLLHLQHYTFSLVFNFTYLQR......TDTQEIS..
+//

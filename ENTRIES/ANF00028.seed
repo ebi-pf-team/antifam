@@ -1,0 +1,19 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_28
+#=GF AC   ANF00028
+#=GF DE   Antisense to SRP RNA
+#=GF DO   Delete protein
+#=GF AU   Eberhardt R
+#=GF SE   RF01854
+#=GF GA   27.00 27.00;
+#=GF TC   37.70 37.10;
+#=GF NC   21.30 20.90;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   Antisense overlap with RF01854, bacterial large signal recognition 
+#=GF CC   particle RNA.
+#=GF SQ   2
+Clostridium_kluyveri.1/1-65      LKPGLSTAHKNIHLPLLPSGPDGVHEFLLRGTKLSTPLLWGRPHILKSKPGIQPCYSGLQVTGHR
+Clostridium_botulinu.1/1-65      LKSGLSTAHESVHLPLLPSGSDGVHEFSLRGTQLSTPLLQARPHKLKSRRRIQPCCSGLQVTGHR
+//

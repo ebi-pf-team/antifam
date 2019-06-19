@@ -1,0 +1,30 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_65
+#=GF AC   ANF00065
+#=GF DE   Translation of REP sequence
+#=GF DO   Delete protein
+#=GF AU   Hoeps W
+#=GF SE   Jackhmmer:D2TPE5
+#=GF GA   27.00 27.00;
+#=GF TC   27.10 27.30;
+#=GF NC   26.30 25.80;
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 17690987 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Domain
+#=GF WK   Domain_of_unknown_function
+#=GF DR   INTERPRO; IPR031873;
+#=GF CC   This entry was formerly Pfam entry PF15954. The family is overlapping
+#=GF CC   with amino acid translations of REP elements in E. coli and is most
+#=GF CC   likely not protein-coding. 
+#=GF SQ   8
+D4B6K3_9ENTR/27-71                PDGGVNALSGLQPHFPVGLDGGVNALSGLQPPLPVGLISVAPSGS
+A9MKU9_SALAR/2-29                 PDGDASLLPGLQ...........IMLRNV......GLISAAPSGN
+A8ARI0_CITK8/20-48                PDGGASALSGLH...........IADIVSV.....GLISIAPSGI
+A0A0F6BA70_SALT1/2-26             PDGGINALSGLQ...........HTV.........GLISAAPSGT
+D2TPE5_CITRI/20-46                PDGGVNALSGLQ...........SASNP.......GLISEAPSGT
+D7Y1U6_ECOLX/6-39                 AGCGVNALSGLQ...........NCANSIYCRKHVGLISEAHQAV
+B7UJH5_ECO27/59-86                AGCGVNALSGLR...........MARESV......GLISIAHQAV
+D7YRP7_ECOLX/6-39                 AGCGVNALSGLQ...........KSCQFNILQDHVGLISVAHQAV
+#=GC seq_cons                     PDGGVNALSGLQ...........pusps.......GLIShAPSGs
+//

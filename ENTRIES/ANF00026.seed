@@ -1,0 +1,19 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_26
+#=GF AC   ANF00026
+#=GF DE   Overlaps glmS ribozyme
+#=GF DO   Delete protein
+#=GF AU   Eberhardt R
+#=GF SE   RF00234
+#=GF GA   27.00 27.00;
+#=GF TC   31.60 114.80;
+#=GF NC   25.30 17.40;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   This family overlaps with RF00234, glmS glucosamine-6-phosphate
+#=GF CC   activated ribozyme, in the same strand.
+#=GF SQ   2
+Listeria_monocytogen.2/1-51      ......LGRKYLKVKSLKSKQSVDEEEINRSFGGSLPAVHAVVKSYLQITWVTKWTE
+Listeria_monocytogen.1/1-57      IEAPELIGTKMLEGEIPEKYRSVDEEEINRSFGGSLPAVHAVVKSYLQIIWVTKWTE
+//

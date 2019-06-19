@@ -1,0 +1,24 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_53
+#=GF AC   ANF00053
+#=GF DE   Translation of DNA repeat
+#=GF DO   Delete protein
+#=GF AU   Haft D
+#=GF SE   Haft D
+#=GF GA   21.40 21.40;
+#=GF TC   24.10 36.80;
+#=GF NC   20.70 16.60;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   This family was originally annotated as DUF1562, PF07601, a family 
+#=GF CC   of hypothetical Leptospira proteins. It was found to be a 
+#=GF CC   translation of a DNA repeat. There is no evidence 
+#=GF CC   that this is a real protein.
+#=GF SQ   5
+D4YVX6.1/1-23     m......GINKITSIAHFNATETDGEFIF
+G7QJN2.1/11-38    .LKNSLVPINKTALIDRFHKIETDGELIL
+Q72N75.1/32-59    .VEKFVVAINKTALINHFIKQKQDKELIF
+Q72VV8.1/37-61    .LKNSMAGISKIA...HFNVMKTNGKLIF
+Q72R71.1/23-50    .IVIVANAIRLITVITRMHKNNIYAELVL
+//

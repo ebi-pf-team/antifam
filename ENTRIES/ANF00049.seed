@@ -1,0 +1,33 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_49
+#=GF AC   ANF00049
+#=GF PI   DUF3286
+#=GF DE   Contained within insertion sequence ISlin1
+#=GF DO   Delete protein
+#=GF AU   Pollington J
+#=GF SE   Pfam-B_4792 (release 23.0)
+#=GF GA   21.10 21.10;
+#=GF TC   23.20 21.30;
+#=GF NC   18.90 20.90;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF WK   Domain_of_unknown_function
+#=GF DR   INTERPRO; IPR021703;
+#=GF CC   This family was originally annotated as DUF3286 (PF11689). It was 
+#=GF CC   identified by Dan Haft as arising from a repeat in Leptospira interrogans.
+#=GF CC   This repeat is part of ISlin1, an IS110 family insertion sequence. Many
+#=GF CC   of the seed members change frame. It is therefore unlikely to be real.
+#=GF SQ   9
+Q72RU4_LEPIC/1-87               MDRR......SGL...KKAHFSSVPTRMSLFTCKKYVFLIKKTFSPPPP..PKNKENSTQRSMNRVGKLSTTLSYGSRCGM..GTKFYRGF..................VVIPTIDLE
+Q72RR1_LEPIC/1-80               MDRR......SRL...KKAHFSSVPTRMSLFTCKKYVFLIEKNFPNLTTSVPHPKIGKTQHNA..........LYESRWKTQHNALYESRW..................KTQHNA.LY
+Q8F0H4_LEPIN/1-75               MDRR......SGL...QKAHFSSVPTRISLFTCKKYVFLIEKNFP......PHPKIGKTQHNA..........FLWVALETQHNAFLWVAL..................ETQHNAFLW
+Q8F5U2_LEPIN/1-93               MDRR......SGL...KKAHFSSVPINES.FYLQKVCFSDREKFSEPYRL...PKIEKTQHNA..........LYESCCGV..GTKFYRRFCRNSDRFILRSNTCGVGDEFVETTAFY
+Q72PJ1_LEPIC/3-88               MNSTERAFYGSPFWVQKGTFFKCSDKNES.FYLQKVCFSDREKFSEPSLT...QKIGKTQHKA..........LYESRWKTQHKALYESRW..................KTQHKAFLW
+Q8F9V1_LEPIN/1-77               MNSTERAFYGSPFWAQKGTFFKCSDKNES.FYLQKVCFSDREKFSEPYRLHPHPKIGKTQHNA..........LSYVSC..............................VKPSRYFFY
+Q8F3Z5_LEPIN/1-78               MDRR......SGL...KKAHFSSVPTRMSLFTCKKYIFLIEKNFPNLTASTPHPKIGKTQHNA..........LYESRCGV..GTKFCRGF..................VVTPTD.LY
+Q72RR1_LEPIC/84-150             WKTQHNALYESRW...KTQHNALYESRWK....TQHNALYESRW.............KTQHNA..........LYESRCGV..GTKFCRGF..................VVTSTD.LY
+Q8F180_LEPIN/3-83               MNSTERAFYGSPF...WAQKGTSVPTRMSLFTCKKYVFLIEKNFPNLTT..P.SKNRETQHNA..........LYESRCGM..GTKFYRGF..................VVIPTD.LY
+#=GC seq_cons                   Mcpp......Ssh...KpsHFoSVPoRhS.FhhpKasFLhccpFsp..h..P.sKIsKTQHNA..........LYESRCts..sshahpta..................hs.pss.LY
+//

@@ -1,0 +1,35 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_48
+#=GF AC   ANF00048
+#=GF PI   DUF2988
+#=GF DE   Contained within repeat in Vibrio superintegron
+#=GF DO   Delete protein
+#=GF AU   Pollington J, Finn RD
+#=GF SE   Pfam-B_003136 (release 23.0)
+#=GF GA   25.00 25.00;
+#=GF TC   35.40 35.30;
+#=GF NC   16.00 15.40;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF WK   Domain_of_unknown_function
+#=GF DR   INTERPRO; IPR021371;
+#=GF CC   This family was originally annotated as DUF2988, PF11206. It was 
+#=GF CC   identified by Dan Haft as arising from a repeat within the superintegron.
+#=GF CC   It is on the opposite strand to most other genes in the integron and has
+#=GF CC   poor homology outside this region. It is therefore unlikely to be real.
+#=GF SQ   11
+A3GKQ5_VIBCH/10-40             KHQGLLVFSDFEPTELSTRSTKSASRKAQKP
+A2PRJ1_VIBCH/2-32              KHLDLLACGDFETTAFSTLSAKSASSKTQKP
+A1F1P4_VIBCH/5-35              KHQSLLVIRDFETAELSTLSTKSTSGKTQKL
+A2PCH9_VIBCH/8-38              KHRSLLAYGGFETAEISIRSTKSTSGKTQKL
+A6AAN7_VIBCH/10-40             KHRGLLVFSDFKTTEFSTRSTKSASGKNSKA
+A3H1P2_VIBCH/2-32              KHRGLMVFSDFETTELSTRSTKSASKKLESQ
+A5EZ39_VIBC3/10-40             KHRDLLVFIDFEPTELSTRSTKSTSEKLESQ
+A5EZB2_VIBC3/8-38              KHRGLWVFSGFEPAELSTLSTKSASEKLESQ
+A6AAR5_VIBCH/2-32              KHRSLFVFSDFETAELSTLLPNQHQAKLKSQ
+A6XS82_VIBCH/2-32              KHRNLMVFSDFETAEHSTLSTKSESDKLESQ
+A6ACD0_VIBCH/2-32              MDRGLIVFSDFETAEHSTLSTKSASEKLESK
+#=GC seq_cons                  KHRuLlVFSDFETsElSThSTKSsSpKhppt
+//

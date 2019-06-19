@@ -1,0 +1,20 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_69
+#=GF AC   ANF00069
+#=GF DE   Translation of predicted DNA regulatory sequence
+#=GF DO   Delete protein
+#=GF AU   Pollington J;0000-0002-8158-8998
+#-GF AU   Finn RD;0000-0001-8626-2148
+#=GF SE   PRODOM
+#=GF GA   25.00 25.00;
+#=GF TC   25.00 38.00;
+#=GF NC   20.30 24.90;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry was formerly PF10885. It is composed of 
+#=GF CC   translations of a predicted regulatory region that 
+#=GF CC   is fairly well conserved in species related to 
+#=GF CC   E. coli and Salmonella.
+#=GF SQ   
+//

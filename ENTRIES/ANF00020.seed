@@ -1,0 +1,21 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_20
+#=GF AC   ANF00020
+#=GF DE   tRNA translation
+#=GF DO   Delete protein
+#=GF AU   Haft D, Eberhardt R
+#=GF SE   Haft D
+#=GF GA   25.00 25.00;
+#=GF TC   27.10 26.20;
+#=GF NC   20.90 20.30;
+#=GF TP   Family
+#=GF TX   Bacteria; unidentified;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF CC   Arises from an alignment of translated bacterial tRNA, tRNA11.
+#=GF SQ   5
+GCT_tRNA-Tyr-1_frame_4/1-27      WVGEDSNLRRHMSTDLQSVAFDRFATY
+GBC_tRNA00040_frame_5/2-27       GGGQIRTAEP.EGADLQSAAFSHFATP
+GMG_tRNA-Tyr-1_frame_5/2-28      GQGEIRTPETIKVSDLQSEAFSHFATC
+tRNA-Tyr-1_frame_4/2-28          VVGEGFEPSKSMTADLQSAPFGRSGTP
+GMT_tRNA-Tyr-1_frame_5/2-27      GRCRIRTCVA.FATDLQSAPIGRSGNL
+//

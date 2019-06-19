@@ -1,0 +1,26 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_66
+#=GF AC   ANF00066
+#=GF DE   Translation of palindromic DNA repeat
+#=GF DO   Delete protein
+#=GF AU   Hoeps W
+#=GF SE   Blast clustering of Pirellula proteome
+#=GF GA   20.30 20.30;
+#=GF TC   20.40 60.70;
+#=GF NC   20.20 18.60;
+#=GF TX   Bacteria; 
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 26740544 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF DR   INTERPRO; IPR011503;
+#=GF CC   This entry was formerly Pfam entry PF07644. The entry 
+#=GF CC   appears to represent spurious translation of a species-
+#=GF CC   specific, low-copy-number palindromic DNA repeat in 
+#=GF CC   Rhodopirellula baltica.
+#=GF SQ   4
+Q7UHK3_RHOBA/54-88              SLSIPGAMPQATIMKAFGQQNRSKSATSKLTRRVV
+Q7USS6_RHOBA/14-48              SFSIPGAMPQATMTKAFGQQNRMQKAQLQNSRVGL
+Q7UVK9_RHOBA/98-132             SIRVPGAMPLASMKLAVGQSTALAKGQTQHSQRAT
+Q7UVK9_RHOBA/28-60              SVRVPGAMPLASMNLAVGQSVRI..GQRPNSSPSS
+#=GC seq_cons                   SlplPGAMP.AoMphAhGQpsRhtpuQpppSphus
+//
