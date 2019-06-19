@@ -1,0 +1,16 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_
+#=GF AC   ANF00...
+#=GF DE   
+#=GF DO   Delete protein
+#=GF AU   
+#=GF SE   
+#=GF GA   
+#=GF TC   
+#=GF NC   
+#=GF TP   Family
+#=GF TX
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   
+#=GF SQ   
+//
