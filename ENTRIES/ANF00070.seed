@@ -1,0 +1,23 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_70
+#=GF AC   ANF00070
+#=GF DE   Spurious family
+#=GF DO   Delete protein
+#=GF AU   Pollington J
+#=GF AU   Finn RD
+#=GF SE   PRODOM
+#=GF GA   GA   25.00 25.00;
+#=GF TC   32.20 77.30;
+#=GF NC   21.90 17.70;
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry was formerly PF10848. PGAP results do
+#=GF CC   not conform with it being protein. The coding 
+#=GF CC   region is in the transcribed UTR region of a
+#=GF CC   large gene nearby, ribonuclease E, but on the 
+#=GF CC   wrong strand.
+#=GF SQ   2
+Q32EU4.1/19-100    VSVARFSCGKTAQLSKKQTGYYSPEIFPSTGKDCNPQPANCLKDQYVLRHCCVDDRSGKMGYSVKFLVLTRMDTETASLFHC
+P62066.2/1-82      MSVARFSCGKTAQLSKKQTGYYSPEIFPSTGKDCNPQPANCLKDQYVLRHCCVDDRSGKMGYSVKFLVLTRMDTETASLFHC
+//
