@@ -1,0 +1,16 @@
+ID   DUF334
+AC   PF03904
+DE   Domain of unknown function (DUF334)
+AU   Finn RD
+SE   DOMO:DM04800;
+GA   25.00 25.00;
+TC   30.80 30.80;
+NC   19.20 19.00;
+BM   hmmbuild  -o /dev/null HMM SEED
+SM   hmmsearch -Z 23193494 -E 1000 --cpu 4 HMM pfamseq
+TP   Family
+WK   Domain_of_unknown_function
+CC   Staphylococcus aureus plasmid proteins with no characterised
+CC   function.
+**   Trimmed down to just conserved C-terminus. I'm not convinced these
+**   are real proteins. (Alex)
