@@ -1,0 +1,143 @@
+AntiFam
+=======
+
+AntiFam is a resource of profile-HMMs designed to identify spurious
+protein predictions. AntiFam profile-HMMs come from two sources:
+
+ i) A number of spurious Pfam families have been built in the past. These
+    were based on erronous gene predictions.  These protein families
+    have been deleted from Pfam, but new proteins may be predicted.
+
+ ii) Profile-HMMs have been created from translations of commonly occuring
+     non-coding RNAs such as tRNAs. 
+
+This collection of profile-HMM models is designed to be used as a
+quality control step for the UniProt sequence database as well as
+metagenomic projects.
+
+
+Release   # Entries
+   1.1       23    
+
+Below is the complete list of spurious families and the stated reason for
+removal. For each family that has been derived from a Pfam entry, the last 
+release of Pfam that contained the live family is shown.
+
+
+ANF00001 Spurious_ORF_01
+
+Family has been deleted after concerns that these proteins may not be expressed.  Evidence for this is homology to proteins on opposite strand. PF07612 (15.0)
+
+ANF00002 Spurious_ORF_02
+
+Family has been deleted after concerns that these proteins may not be expressed.  Evidence for this is homology to proteins on opposite strand. PF07616 (15.0)
+
+ANF00003 Spurious_ORF_03
+
+Family has been deleted after concerns that these proteins may not be expressed.  Evidence for this is homology to proteins on opposite strand. PF07630 (15.0)
+
+ANF00004 Spurious_ORF_04
+
+Family has been deleted after concerns that these proteins may not be expressed.  Evidence for this is homology to proteins on opposite strand. PF07633 (15.0)
+
+ANF00005 Spurious_ORF_05
+
+Family identified by James Tripp as antisense to rRNA. PF10695 (25.0)
+
+ANF00006 Spurious_ORF_06
+
+DUF that Dan Haft from TIGRFAM said were translations of DNA regions that are CRISPR repeat regions. PF11194 (25.0)
+
+ANF00007 Spurious_ORF_07
+
+DUF that Dan Haft from TIGRFAM thought looked like a shadow ORF in the -1 reading frame of Clp protease. PF11370 (25.0)
+
+ANF00008 Spurious_ORF_08
+
+DUF that Dan Haft from TIGRFAM said were translations of DNA regions that are CRISPR repeat regions. PF11664 (25.0)
+
+ANF00009 Spurious_ORF_09
+
+DUF that Dan Haft identified as a shadow of PF00665. PF10919 (26.0)
+
+ANF00010 Spurious_ORF_10
+
+Arises from an alignment of translated bacterial tRNA, tRNA01
+
+ANF00011 Spurious_ORF_11
+
+Arises from an alignment of translated bacterial tRNA, tRNA02
+
+ANF00012 Spurious_ORF_12
+
+Arises from an alignment of translated bacterial tRNA, tRNA03
+
+ANF00013 Spurious_ORF_13
+
+Arises from an alignment of translated bacterial tRNA, tRNA04
+
+ANF00014 Spurious_ORF_14
+
+Arises from an alignment of translated bacterial tRNA, tRNA05
+
+ANF00015 Spurious_ORF_15
+
+Arises from an alignment of translated bacterial tRNA, tRNA06
+
+ANF00016 Spurious_ORF_16
+
+Arises from an alignment of translated bacterial tRNA, tRNA07
+
+ANF00017 Spurious_ORF_17
+
+Arises from an alignment of translated bacterial tRNA, tRNA08
+
+ANF00018 Spurious_ORF_18
+
+Arises from an alignment of translated bacterial tRNA, tRNA09
+
+ANF00019 Spurious_ORF_19
+
+Arises from an alignment of translated bacterial tRNA, tRNA10
+
+ANF00020 Spurious_ORF_20
+
+Arises from an alignment of translated bacterial tRNA, tRNA11
+
+ANF00021 Spurious_ORF_21
+
+PrfB ORF extension wrong frame translation
+
+ANF00022 Spurious_ORF_22
+
+Alignment generated from a lncRNA, LINC00174.
+
+ANF00023 Spurious ORF family 23
+
+Family deleted as it contained only 3 sequences, all from Rhodopirellula baltica, 2 of which overlapped. PF07641 (26.0)
+
+How to use AntiFam
+==================
+
+AntiFam is composed of a collection of alignments found in the file AntiFam.seed.
+Using the HMMER3 software a library of profile-HMMs was built. This library is
+found in the file AntiFam.hmm.
+
+To use the hmmlirary you must first make index files with the following command
+
+  hmmpress AntiFam.hmm
+
+To search AntiFam against a set of sequences you run the following command
+
+  hmmsearch --cut_ga AntiFam.hmm yourseq.fasta
+
+Any reported matches are very likely to be spurious gene predictions.
+
+How to cite AntiFam
+===================
+
+Please cite the following paper:
+
+Ruth Y Eberhardt, Dan Haft, Marco Punta, Maria Martin, Claire O’Donovan, 
+Alex Bateman. (2012) AntiFam: A tool to help identify spurious ORFs in protein
+annotation. Database (in press).

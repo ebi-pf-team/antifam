@@ -1,0 +1,1408 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  AntiFam_Eukaryota.hmm
+# target sequence database:        /lustre/scratch103/sanger/pfam-pipe/pfamseq27/pfamseq
+# show alignments in output:       no
+# sequence reporting threshold:    E-value <= 0.01
+# domain reporting threshold:      E-value <= 0.01
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Spurious_ORF_05  [M=105]
+Accession:   ANF00005
+Description: Antisense to 23S rRNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (105 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    511016  (0.0220327); expected 463869.9 (0.02)
+Passed bias filter:                   416241  (0.0179465); expected 463869.9 (0.02)
+Passed Vit filter:                     42308  (0.00182413); expected 23193.5 (0.001)
+Passed Fwd filter:                       156  (6.72602e-06); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 431.87u 8.40s 00:07:20.27 Elapsed: 00:02:16.94
+# Mc/sec: 5824.99
+//
+Query:       Spurious_ORF_09  [M=94]
+Accession:   ANF00009
+Description: Shadow ORF
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (94 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    514091  (0.0221653); expected 463869.9 (0.02)
+Passed bias filter:                   367876  (0.0158612); expected 463869.9 (0.02)
+Passed Vit filter:                     20678  (0.000891543); expected 23193.5 (0.001)
+Passed Fwd filter:                       217  (9.35607e-06); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 404.03u 8.35s 00:06:52.38 Elapsed: 00:02:04.95
+# Mc/sec: 5715.57
+//
+Query:       Spurious_ORF_10  [M=25]
+Accession:   ANF00010
+Description: tRNA translation
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    7.1e-29  108.2   0.0       0.14   21.7   0.0    5.2  5  Q23E24.1 Q23E24_TETTS Putative uncharacterized protein
+      9e-17   69.8   1.5      0.036   23.5   0.0    3.2  3  A0XZA6.1 A0XZA6_9GAMM Putative uncharacterized protein
+    5.3e-15   64.2   6.6      0.092   22.2   0.1    3.2  3  Q22S27.1 Q22S27_TETTS Putative uncharacterized protein
+    1.3e-09   47.1   1.0      0.023   24.1   0.0    3.1  2  A9DKA2.1 A9DKA2_9FLAO Putative uncharacterized protein
+      9e-08   41.3  25.8         28   14.4   0.4    5.6  4  Q23YR8.1 Q23YR8_TETTS Putative uncharacterized protein
+    2.2e-07   40.1   0.4       0.77   19.3   0.0    2.1  2  Q9CMX0.1 Y682_PASMU Uncharacterized protein PM0682
+    4.9e-07   39.0  71.1    6.9e+03    6.8   0.2   15.3  6  A7SPI6.1 A7SPI6_NEMVE Predicted protein (Fragment)
+      6e-07   38.7   2.3      0.051   23.0   1.5    2.3  2  H8ZMC7.1 H8ZMC7_9CAUD Putative uncharacterized protein
+    1.5e-05   34.2   0.0    5.1e+02   10.4   0.0    3.5  3  Q22CG4.1 Q22CG4_TETTS Putative uncharacterized protein
+    1.5e-05   34.2   0.5        8.7   16.0   0.1    2.8  2  H0Y031.1 H0Y031_OTOGA Uncharacterized protein
+    0.00013   31.2   0.2         30   14.3   0.0    2.8  2  Q22AF5.1 Q22AF5_TETTS Putative uncharacterized protein
+    0.00021   30.6   0.0      0.059   22.8   0.0    2.1  1  A6FED9.1 A6FED9_9GAMM Putative uncharacterized protein
+    0.00042   29.7   0.2      0.098   22.1   0.0    2.2  1  Q7MGR0.1 Q7MGR0_VIBVY Putative uncharacterized protein VV316
+    0.00048   29.5   1.4         16   15.2   0.1    2.6  2  A9V857.1 A9V857_MONBE Predicted protein
+     0.0013   28.1   5.3         14   15.4   0.4    2.6  2  Q23YR7.2 Q23YR7_TETTS Putative uncharacterized protein
+     0.0022   27.4   0.3      1e+02   12.6   0.0    2.4  2  E9GK81.1 E9GK81_DAPPU Putative uncharacterized protein
+     0.0026   27.1   8.7       0.66   19.5   0.0    3.7  2  D8FRN7.1 D8FRN7_BPSYP Hypothetical-Protein | belonging to T4
+     0.0028   27.0   0.1       0.02   24.3   0.0    2.4  1  A9S1M7.1 A9S1M7_PHYPA Predicted protein
+     0.0069   25.8   3.4      0.023   24.1   0.0    2.4  1  D8FVR8.1 D8FVR8_9CYAN Putative uncharacterized protein
+     0.0075   25.7   0.2      0.021   24.3   0.1    1.8  1  G4UYK3.1 G4UYK3_NEUT9 Putative uncharacterized protein
+     0.0082   25.6   0.0      0.017   24.5   0.0    1.6  1  Q2GK90.1 Q2GK90_ANAPZ Triosephosphate isomerase EC=5.3.1.1
+     0.0092   25.4   3.5         29   14.3   0.2    2.3  2  H8XR17.1 H8XR17_FLAIG Putative uncharacterized protein
+     0.0094   25.4   0.1      0.017   24.5   0.1    1.5  1  B5JD39.1 B5JD39_9BACT Putative uncharacterized protein
+     0.0097   25.3   0.1      0.018   24.5   0.0    1.5  1  Q2W6N5.1 Q2W6N5_MAGSA Putative uncharacterized protein
+     0.0098   25.3   0.2      0.024   24.1   0.2    1.7  1  E4PL62.1 E4PL62_MARAH Secreted protein containing YkuD domai
+
+
+Domain annotation for each sequence:
+>> Q23E24.1  Q23E24_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.8   0.0   2.2e-05        20       7      22 ..       2      17 ..       1      17 [. 0.94
+   2 !   21.7   0.0   1.5e-07      0.14       5      22 ..      50      67 ..      47      67 .. 0.93
+   3 !   21.7   0.0   1.5e-07      0.14       5      22 ..      97     114 ..      94     114 .. 0.93
+   4 !   21.7   0.0   1.5e-07      0.14       5      22 ..     152     169 ..     149     169 .. 0.93
+   5 !   21.7   0.0   1.5e-07      0.14       5      22 ..     181     198 ..     178     198 .. 0.93
+
+>> A0XZA6.1  A0XZA6_9GAMM Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.5   0.0   3.9e-08     0.036       1      24 [.      19      42 ..      19      43 .. 0.92
+   2 !   23.5   0.0   3.9e-08     0.036       1      24 [.      57      80 ..      57      81 .. 0.92
+   3 !   21.0   0.0   2.5e-07      0.23       1      22 [.      95     116 ..      95     119 .. 0.92
+
+>> Q22S27.1  Q22S27_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.2   0.1     1e-07     0.092       5      25 .]      30      50 ..      29      50 .. 0.94
+   2 !   22.2   0.1     1e-07     0.092       5      25 .]      67      87 ..      66      87 .. 0.94
+   3 !   22.2   0.1     1e-07     0.092       5      25 .]     119     139 ..     118     139 .. 0.94
+
+>> A9DKA2.1  A9DKA2_9FLAO Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.0   7.5e-07       0.7       3      21 ..       3      21 ..       2      21 .. 0.96
+   2 !   24.1   0.0   2.5e-08     0.023       3      22 ..      61      80 ..      60      82 .. 0.94
+
+>> Q23YR8.1  Q23YR8_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   0.4     3e-05        28       5      24 ..     151     170 ..     150     171 .. 0.94
+   2 !   14.4   0.4     3e-05        28       5      24 ..     205     224 ..     204     225 .. 0.94
+   3 !   13.5   0.3   5.6e-05        52       5      24 ..     259     278 ..     258     278 .. 0.94
+   4 !   13.5   0.3   5.6e-05        52       5      24 ..     336     355 ..     335     355 .. 0.94
+
+>> Q9CMX0.1  Y682_PASMU Uncharacterized protein PM0682
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.3   0.0   8.3e-07      0.77       2      25 .]       3      26 ..       2      26 .. 0.94
+   2 !   19.3   0.0   8.3e-07      0.77       2      25 .]      43      66 ..      42      66 .. 0.94
+
+>> A7SPI6.1  A7SPI6_NEMVE Predicted protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.7   0.2     0.008   7.4e+03      14      25 .]      30      41 ..      26      41 .. 0.86
+   2 !    6.8   0.2    0.0075   6.9e+03      14      25 .]      52      63 ..      48      63 .. 0.86
+   3 !    6.7   0.2    0.0077   7.2e+03      14      25 .]      96     107 ..      92     107 .. 0.86
+   4 !    6.7   0.3    0.0082   7.6e+03      14      25 .]     107     118 ..     103     118 .. 0.86
+   5 !    6.7   0.2    0.0077   7.2e+03      14      25 .]     129     140 ..     125     140 .. 0.86
+   6 !    6.8   0.2    0.0075     7e+03      14      25 .]     151     162 ..     147     162 .. 0.86
+
+>> H8ZMC7.1  H8ZMC7_9CAUD Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.8   0.0   4.5e-05        42       7      25 .]       2      20 ..       1      20 [. 0.93
+   2 !   23.0   1.5   5.5e-08     0.051       2      24 ..      23      45 ..      22      45 .. 0.94
+
+>> Q22CG4.1  Q22CG4_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.6   0.0   0.00096   8.9e+02       7      19 ..       2      14 ..       1      19 [. 0.87
+   2 !   10.4   0.0   0.00055   5.1e+02       6      19 ..      80      93 ..      77      98 .. 0.84
+   3 !   10.4   0.0   0.00055   5.1e+02       6      19 ..     288     301 ..     285     306 .. 0.84
+
+>> H0Y031.1  H0Y031_OTOGA Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.7   0.0   1.1e-05        11       2      20 ..     106     124 ..     105     124 .. 0.91
+   2 !   16.0   0.1   9.4e-06       8.7       9      23 ..     249     263 ..     242     264 .. 0.88
+
+>> Q22AF5.1  Q22AF5_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   0.0   3.2e-05        30       7      22 ..     542     557 ..     541     560 .. 0.91
+   2 !   14.3   0.0   3.2e-05        30       7      22 ..     604     619 ..     603     622 .. 0.91
+
+>> A6FED9.1  A6FED9_9GAMM Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.8   0.0   6.4e-08     0.059       1      25 []      23      47 ..      23      47 .. 0.96
+
+>> Q7MGR0.1  Q7MGR0_VIBVY Putative uncharacterized protein VV3167
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   0.0   1.1e-07     0.098       1      25 []      26      50 ..      26      50 .. 0.96
+
+>> A9V857.1  A9V857_MONBE Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.9   0.1   9.1e-05        84       1      16 [.     578     593 ..     578     594 .. 0.93
+   2 !   15.2   0.1   1.7e-05        16       4      19 ..     595     610 ..     595     610 .. 0.98
+
+>> Q23YR7.2  Q23YR7_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.4   0.4   1.5e-05        14       5      24 ..      14      33 ..      13      34 .. 0.94
+   2 !   14.5   0.3   2.8e-05        26       5      24 ..      82     101 ..      81     101 .. 0.94
+
+>> E9GK81.1  E9GK81_DAPPU Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.5   0.1   0.00012   1.1e+02       8      22 ..      84      98 ..      83     100 .. 0.91
+   2 !   12.6   0.0   0.00011     1e+02       6      21 ..     110     125 ..     109     125 .. 0.96
+
+>> D8FRN7.1  D8FRN7_BPSYP Hypothetical-Protein | belonging to T4-LIKE GC: 857
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.2   0.0    0.0027   2.5e+03       7      22 ..      16      31 ..      15      32 .. 0.91
+   2 !   19.5   0.0   7.2e-07      0.66       5      24 ..      77      96 ..      73      96 .. 0.89
+
+>> A9S1M7.1  A9S1M7_PHYPA Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.0   2.2e-08      0.02       1      25 []     102     126 ..     102     126 .. 0.96
+
+>> D8FVR8.1  D8FVR8_9CYAN Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   2.5e-08     0.023       7      25 .]       2      20 ..       1      20 [. 0.96
+
+>> G4UYK3.1  G4UYK3_NEUT9 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.3   0.1   2.2e-08     0.021       1      25 []     687     711 ..     687     711 .. 0.94
+
+>> Q2GK90.1  Q2GK90_ANAPZ Triosephosphate isomerase EC=5.3.1.1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   1.9e-08     0.017       7      24 ..       2      19 ..       1      20 [. 0.92
+
+>> H8XR17.1  H8XR17_FLAIG Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.3   0.2   3.2e-05        29       3      18 ..      28      43 ..      26      43 .. 0.88
+   2 !   12.1   0.2   0.00015   1.4e+02       3      18 ..      88     103 ..      86     103 .. 0.88
+
+>> B5JD39.1  B5JD39_9BACT Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.1   1.9e-08     0.017       1      21 [.      28      48 ..      28      52 .. 0.92
+
+>> Q2W6N5.1  Q2W6N5_MAGSA Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   1.9e-08     0.018       7      25 .]       2      20 ..       1      20 [. 0.95
+
+>> E4PL62.1  E4PL62_MARAH Secreted protein containing YkuD domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.2   2.6e-08     0.024       1      24 [.     259     282 ..     259     283 .. 0.95
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (25 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    513166  (0.0221254); expected 463869.9 (0.02)
+Passed bias filter:                   388281  (0.0167409); expected 463869.9 (0.02)
+Passed Vit filter:                     22340  (0.000963201); expected 23193.5 (0.001)
+Passed Fwd filter:                       966  (4.16496e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):              25  [number of targets reported over threshold]
+# CPU time: 302.25u 8.68s 00:05:10.93 Elapsed: 00:01:57.53
+# Mc/sec: 1616.07
+//
+Query:       Spurious_ORF_11  [M=25]
+Accession:   ANF00011
+Description: tRNA translation
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.3e-16   69.0  31.7       0.81   19.7   0.1    8.0  7  A7SIC5.1 A7SIC5_NEMVE Predicted protein
+    8.3e-09   45.0  10.9    1.5e+02   12.5   0.1    4.3  4  D7EK59.1 D7EK59_TRICA Putative uncharacterized protein
+     0.0013   28.5   8.8         10   16.2   0.9    2.4  2  Q22E32.1 Q22E32_TETTS Putative uncharacterized protein
+      0.003   27.4   5.8       0.19   21.7   2.4    2.6  2  Q9YF21.1 Q9YF21_AERPE Putative uncharacterized protein
+     0.0053   26.6   0.0      0.026   24.4   0.0    2.0  1  D4Z9T7.1 D4Z9T7_BPAR1 Putative uncharacterized protein ar1_1
+      0.007   26.2   4.6       0.45   20.5   0.2    2.4  2  Q2FX82.1 Q2FX82_STAA8 Putative uncharacterized protein
+     0.0088   25.9   1.7      0.019   24.9   1.2    1.6  1  A4WZ94.1 A4WZ94_RHOS5 Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> A7SIC5.1  A7SIC5_NEMVE Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.5   0.1   0.00086   2.8e+03       2      17 ..     158     173 ..     158     173 .. 0.85
+   2 !    7.6   0.3    0.0016   5.3e+03       7      25 .]     267     285 ..     265     285 .. 0.97
+   3 !   15.9   0.5   3.8e-06        13       2      25 .]     400     423 ..     400     423 .. 0.91
+   4 !   13.0   0.2   3.2e-05   1.1e+02       7      25 .]    1052    1070 ..    1052    1070 .. 0.97
+   5 !    9.8   0.1   0.00031     1e+03       7      25 .]    1136    1154 ..    1136    1154 .. 0.94
+   6 !   19.7   0.1   2.5e-07      0.81       2      25 .]    1165    1188 ..    1165    1188 .. 0.91
+   7 !   13.0   0.2   3.2e-05   1.1e+02       7      25 .]    1239    1257 ..    1239    1257 .. 0.97
+
+>> D7EK59.1  D7EK59_TRICA Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.5   0.1   4.4e-05   1.5e+02       5      15 ..      35      45 ..      34      47 .. 0.92
+   2 !   12.5   0.1   4.4e-05   1.5e+02       5      15 ..      64      74 ..      63      76 .. 0.92
+   3 !   12.5   0.1   4.4e-05   1.5e+02       5      15 ..      93     103 ..      92     105 .. 0.92
+   4 !   12.5   0.1   4.4e-05   1.5e+02       5      15 ..     122     132 ..     121     134 .. 0.92
+
+>> Q22E32.1  Q22E32_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.2   0.9     3e-06        10       6      25 .]     723     742 ..     721     742 .. 0.93
+   2 !   16.2   0.8   3.1e-06        10       6      25 .]     752     771 ..     751     771 .. 0.93
+
+>> Q9YF21.1  Q9YF21_AERPE Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.7   2.4   5.9e-08      0.19       1      13 [.      22      34 ..      22      40 .. 0.95
+   2 !    5.7   0.0    0.0062   2.1e+04      13      20 ..      50      57 ..      49      58 .] 0.89
+
+>> D4Z9T7.1  D4Z9T7_BPAR1 Putative uncharacterized protein ar1_141
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   0.0     8e-09     0.026       5      25 .]      56      76 ..      53      76 .. 0.92
+
+>> Q2FX82.1  Q2FX82_STAA8 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.2   0.4    0.0022   7.2e+03       3      10 ..      31      38 ..      30      39 .. 0.89
+   2 !   20.5   0.2   1.4e-07      0.45       2      20 ..      63      81 ..      63      82 .] 0.94
+
+>> A4WZ94.1  A4WZ94_RHOS5 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   1.2   5.6e-09     0.019       1      20 [.     526     545 ..     526     546 .] 0.96
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (25 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    442263  (0.0190684); expected 463869.9 (0.02)
+Passed bias filter:                   292947  (0.0126306); expected 463869.9 (0.02)
+Passed Vit filter:                     16064  (0.000692608); expected 23193.5 (0.001)
+Passed Fwd filter:                       518  (2.23338e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 298.14u 8.59s 00:05:06.72 Elapsed: 00:01:56.76
+# Mc/sec: 1626.73
+//
+Query:       Spurious_ORF_34  [M=51]
+Accession:   ANF00034
+Description: Antisense to 5.8S rRNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (51 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    373425  (0.0161004); expected 463869.9 (0.02)
+Passed bias filter:                   311810  (0.0134439); expected 463869.9 (0.02)
+Passed Vit filter:                     18400  (0.000793326); expected 23193.5 (0.001)
+Passed Fwd filter:                       306  (1.31934e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 354.23u 8.40s 00:06:02.63 Elapsed: 00:01:57.94
+# Mc/sec: 3285.32
+//
+Query:       Spurious_ORF_15  [M=29]
+Accession:   ANF00015
+Description: tRNA translation
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.5e-13   59.7  26.6    2.8e+05    2.2   0.0   22.0  0  B3F5D7.1 B3F5D7_LEIDO Kinesin-like protein K39B
+    1.5e-10   50.9  33.6    9.6e+03    6.9   0.1   10.2 10  G9EBK4.1 G9EBK4_9GAMM Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> B3F5D7.1  B3F5D7_LEIDO Kinesin-like protein K39B
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> G9EBK4.1  G9EBK4_9GAMM Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.9   0.1   0.00083   9.6e+03      15      29 .]       8      22 ..       4      22 .. 0.89
+   2 !    6.9   0.1   0.00083   9.6e+03      15      29 .]      32      46 ..      28      46 .. 0.89
+   3 !    6.9   0.1   0.00083   9.6e+03      15      29 .]      56      70 ..      52      70 .. 0.89
+   4 !    6.9   0.1   0.00083   9.6e+03      15      29 .]      80      94 ..      76      94 .. 0.89
+   5 !    6.9   0.1   0.00083   9.6e+03      15      29 .]     104     118 ..     100     118 .. 0.89
+   6 !    6.9   0.1   0.00083   9.6e+03      15      29 .]     128     142 ..     124     142 .. 0.89
+   7 !    6.9   0.1   0.00083   9.6e+03      15      29 .]     152     166 ..     148     166 .. 0.89
+   8 !    6.9   0.1   0.00083   9.6e+03      15      29 .]     176     190 ..     172     190 .. 0.89
+   9 !    6.9   0.1   0.00083   9.6e+03      15      29 .]     200     214 ..     196     214 .. 0.89
+  10 !    6.9   0.1   0.00083   9.6e+03      15      29 .]     224     238 ..     220     238 .. 0.89
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (29 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    515118  (0.0222096); expected 463869.9 (0.02)
+Passed bias filter:                   346376  (0.0149342); expected 463869.9 (0.02)
+Passed Vit filter:                     20094  (0.000866364); expected 23193.5 (0.001)
+Passed Fwd filter:                      1021  (4.4021e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               2  [number of targets reported over threshold]
+# CPU time: 302.52u 8.16s 00:05:10.68 Elapsed: 00:01:57.59
+# Mc/sec: 1873.68
+//
+Query:       Spurious_ORF_22  [M=124]
+Accession:   ANF00022
+Description: Long non-coding RNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.1e-11   55.3  37.0      0.069   23.7   2.6    4.2  4  G1RBC9.1 G1RBC9_NOMLE Uncharacterized protein (Fragment)
+    2.2e-10   51.1  42.6       0.21   22.1   5.7    6.2  3  B7Z6Y9.1 B7Z6Y9_HUMAN cDNA FLJ52613
+    2.7e-08   44.4  47.6      0.012   26.2   4.4    5.9  4  G3S0X5.1 G3S0X5_GORGO Uncharacterized protein (Fragment)
+    1.5e-07   41.9  57.2       0.21   22.1   4.8    6.5  3  Q6ZQT7.1 YJ013_HUMAN Putative uncharacterized protein FLJ446
+    2.7e-07   41.1  28.4        6.1   17.4   2.0    4.1  4  B4E0H4.1 B4E0H4_HUMAN cDNA FLJ53527
+    7.4e-07   39.7  28.1        5.9   17.4   2.0    4.1  4  B4E3X0.1 B4E3X0_HUMAN cDNA, FLJ79453
+    3.1e-06   37.7  40.8         13   16.3   0.2    5.4  4  F7H477.1 F7H477_CALJA Uncharacterized protein (Fragment)
+    7.7e-06   36.5  56.5        1.9   19.0   2.9    6.5  3  G1RBC7.1 G1RBC7_NOMLE Uncharacterized protein (Fragment)
+      9e-06   36.2  27.6        5.9   17.4   2.0    4.1  4  B4E3X2.1 B4E3X2_HUMAN cDNA, FLJ79455
+    6.7e-05   33.4  19.6       0.13   22.8   3.7    3.7  3  G8F360.1 G8F360_MACFA Putative uncharacterized protein (Frag
+    0.00013   32.5  38.8        8.9   16.9   3.2    5.8  3  Q6ZRM9.1 YG024_HUMAN Putative uncharacterized protein FLJ462
+    0.00031   31.3  33.3       0.11   23.0   5.4    4.5  2  G3RW35.1 G3RW35_GORGO Uncharacterized protein (Fragment)
+    0.00043   30.8  37.1       0.39   21.3   1.0    4.9  3  G3R9S0.1 G3R9S0_GORGO Uncharacterized protein (Fragment)
+    0.00044   30.8  29.4       0.63   20.6   0.9    4.5  3  G3RZR9.1 G3RZR9_GORGO Uncharacterized protein (Fragment)
+    0.00073   30.1  30.6      0.082   23.4   3.0    5.0  4  H2R2S0.1 H2R2S0_PANTR Uncharacterized protein (Fragment)
+     0.0012   29.4  54.9         14   16.3   3.4    6.5  4  G3RQ02.1 G3RQ02_GORGO Uncharacterized protein
+      0.003   28.1  29.8          6   17.4   8.6    4.4  2  H2PUE8.1 H2PUE8_PONAB Uncharacterized protein
+     0.0032   28.0  45.6         16   16.0   1.8    5.1  3  G3R9R7.1 G3R9R7_GORGO Uncharacterized protein
+     0.0058   27.2  45.7       0.39   21.3   1.6    5.2  3  H2PUJ0.1 H2PUJ0_PONAB Uncharacterized protein (Fragment)
+     0.0093   26.5  19.0         15   16.1   4.2    4.0  2  G3RSG9.1 G3RSG9_GORGO Uncharacterized protein (Fragment)
+
+
+Domain annotation for each sequence:
+>> G1RBC9.1  G1RBC9_NOMLE Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.8   3.4   0.00028   3.3e+02      88     114 ..       1      27 [.       1      33 [. 0.94
+   2 !   12.1   3.1   0.00023   2.7e+02      68     112 ..      34      78 ..      27      87 .. 0.85
+   3 !   23.2   2.9   8.5e-08     0.099      79     111 ..      88     120 ..      79     125 .. 0.89
+   4 !   23.7   2.6   5.9e-08     0.069      74     107 ..     127     159 ..     123     162 .. 0.93
+
+>> B7Z6Y9.1  B7Z6Y9_HUMAN cDNA FLJ52613
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   22.1   5.7   1.8e-07      0.21      64      96 ..       5      38 ..       2      54 .. 0.80
+   2 !   20.0   8.7   8.2e-07      0.95      44     108 ..      53     118 ..      44     121 .. 0.86
+   3 !   13.3   2.0   9.4e-05   1.1e+02      55      95 ..     150     190 ..     145     200 .. 0.83
+
+>> G3S0X5.1  G3S0X5_GORGO Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.2   4.4   9.9e-09     0.012      47     101 ..       8      61 ..       1      62 [. 0.88
+   2 !   12.9   2.4   0.00013   1.5e+02      73     107 ..      62      96 ..      60      97 .. 0.90
+   3 !    8.5   3.9    0.0029   3.4e+03      85     124 .]      94     137 ..      92     137 .. 0.84
+   4 !   14.2   3.4   5.1e-05        59       2      61 ..     155     206 ..     154     207 .] 0.88
+
+>> Q6ZQT7.1  YJ013_HUMAN Putative uncharacterized protein FLJ44672
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.9   0.8   0.00053   6.2e+02      74      93 ..     130     149 ..     128     157 .. 0.88
+   2 !   13.5   2.2   8.6e-05        99       1      32 [.     163     194 ..     163     203 .. 0.90
+   3 !   22.1   4.8   1.9e-07      0.21      78     123 ..     202     248 ..     195     249 .. 0.82
+
+>> B4E0H4.1  B4E0H4_HUMAN cDNA FLJ53527
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   14.4   1.1   4.4e-05        50      76      98 ..       5      27 ..       1      32 [. 0.80
+   2 !   14.9   2.0   3.2e-05        37      80     106 ..      33      59 ..      30      60 .. 0.91
+   3 !   17.4   2.0   5.2e-06       6.1      68      94 ..      57      83 ..      50      91 .. 0.84
+   4 !   11.2   1.4   0.00043     5e+02      82     103 ..      94     115 ..      85     117 .. 0.91
+
+>> B4E3X0.1  B4E3X0_HUMAN cDNA, FLJ79453
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   15.0   1.3   2.8e-05        33      76     100 ..       5      30 ..       1      33 [. 0.78
+   2 !   11.9   2.2   0.00027   3.1e+02      80     106 ..      33      59 ..      31      60 .. 0.90
+   3 !   17.4   2.0   5.1e-06       5.9      68      94 ..      57      83 ..      50      91 .. 0.84
+   4 !   12.1   1.1   0.00023   2.7e+02      82     103 ..      94     115 ..      87     117 .. 0.92
+
+>> F7H477.1  F7H477_CALJA Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   8.1    0.0086   9.9e+03       4     104 ..       2      83 ..       1      87 [. 0.79
+   2 !   11.8   3.1   0.00029   3.4e+02       2      45 ..      86     129 ..      85     138 .. 0.89
+   3 !   13.4   2.3   8.8e-05     1e+02       4      38 ..     141     175 ..     138     184 .. 0.78
+   4 !   16.3   0.2   1.1e-05        13      82     103 ..     183     204 ..     180     206 .] 0.94
+
+>> G1RBC7.1  G1RBC7_NOMLE Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   13.0  12.4   0.00012   1.4e+02      14     102 ..      14     103 ..       3     104 .. 0.70
+   2 !   14.4   2.2   4.4e-05        51      76     106 ..     130     160 ..     126     165 .. 0.93
+   3 !   19.0   2.9   1.6e-06       1.9      79     115 ..     201     236 ..     195     237 .] 0.86
+
+>> B4E3X2.1  B4E3X2_HUMAN cDNA, FLJ79455
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.3   0.9    0.0002   2.3e+02      76     100 ..       5      30 ..       1      33 [. 0.78
+   2 !   11.9   2.2   0.00027   3.2e+02      80     106 ..      33      59 ..      31      60 .. 0.90
+   3 !   17.4   2.0   5.1e-06       5.9      68      94 ..      57      83 ..      50      91 .. 0.84
+   4 !   11.2   1.4   0.00043     5e+02      82     103 ..      94     115 ..      86     117 .. 0.91
+
+>> G8F360.1  G8F360_MACFA Putative uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.9   1.4    0.0011   1.2e+03      76      94 ..       3      21 ..       1      24 [. 0.91
+   2 !    9.2   0.3    0.0018   2.1e+03      32      66 ..      24      57 ..      21      62 .. 0.76
+   3 !   22.8   3.7   1.1e-07      0.13      59     109 ..      70     122 ..      55     130 .. 0.80
+
+>> Q6ZRM9.1  YG024_HUMAN Putative uncharacterized protein FLJ46235
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.1   0.4   0.00023   2.7e+02      87     104 ..       6      23 ..       3      25 .. 0.91
+   2 !   16.9   3.2   7.7e-06       8.9      47      89 ..      65     105 ..      57     116 .. 0.77
+   3 !   11.2   0.7   0.00042   4.9e+02      74     100 ..     113     139 ..     107     147 .. 0.89
+
+>> G3RW35.1  G3RW35_GORGO Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.0   5.4   9.4e-08      0.11      39      91 ..      53     104 ..      49     113 .. 0.82
+   2 !   12.7   0.8   0.00014   1.7e+02      74     100 ..     110     136 ..     105     144 .. 0.89
+
+>> G3R9S0.1  G3R9S0_GORGO Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.4   1.8   0.00018   2.1e+02      87     118 ..       2      34 ..       1      34 [. 0.89
+   2 !   21.3   1.0   3.4e-07      0.39      68      98 ..      28      57 ..      23      68 .. 0.83
+   3 !   14.2   2.5   5.2e-05        60       2      61 ..     149     200 ..     148     201 .] 0.85
+
+>> G3RZR9.1  G3RZR9_GORGO Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.3   0.7    0.0017   1.9e+03      88     110 ..       3      25 ..       1      30 [. 0.88
+   2 !   20.6   0.9   5.4e-07      0.63      66      98 ..      26      57 ..      23      69 .. 0.83
+   3 !   13.0   3.5   0.00012   1.4e+02       2      59 ..     117     166 ..     116     169 .] 0.84
+
+>> H2R2S0.1  H2R2S0_PANTR Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.5   0.5    0.0061     7e+03      87     104 ..       5      22 ..       2      26 .. 0.88
+   2 !   23.4   3.0   7.1e-08     0.082      74     107 ..      58      91 ..      54      97 .. 0.91
+   3 !   10.8   1.5   0.00058   6.7e+02      66      91 ..      82     107 ..      81     118 .. 0.75
+   4 !    7.9   0.6    0.0046   5.4e+03      74     100 ..     113     139 ..     108     158 .. 0.87
+
+>> G3RQ02.1  G3RQ02_GORGO Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.6   0.9    0.0056   6.5e+03      73      93 ..     108     128 ..      97     131 .. 0.85
+   2 !    7.0   0.7    0.0085   9.9e+03      75      93 ..     131     149 ..     128     156 .. 0.88
+   3 !   11.6   1.9   0.00033   3.9e+02       2      32 ..     164     194 ..     163     204 .. 0.87
+   4 !   16.3   3.4   1.2e-05        14      79     123 ..     203     248 ..     195     249 .. 0.82
+
+>> H2PUE8.1  H2PUE8_PONAB Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.4   0.3    0.0067   7.8e+03      86     104 ..       5      23 ..       2      27 .. 0.84
+   2 !   17.4   8.6   5.1e-06         6      41      90 ..      59     123 ..      54     163 .] 0.74
+
+>> G3R9R7.1  G3R9R7_GORGO Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.1  17.3    0.0019   2.2e+03       1      93 [.      23     128 ..       6     136 .. 0.77
+   2 !   12.2   1.9   0.00021   2.4e+02       2      32 ..     143     173 ..     142     181 .. 0.90
+   3 !   16.0   1.8   1.4e-05        16      83     121 ..     184     223 ..     174     226 .. 0.83
+
+>> H2PUJ0.1  H2PUJ0_PONAB Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.8   2.0   0.00028   3.2e+02      87     109 ..       2      24 ..       1      26 [. 0.92
+   2 !   21.3   1.6   3.3e-07      0.39      65      97 ..      25      55 ..      22      61 .. 0.86
+   3 !   13.1   3.6   0.00011   1.3e+02       2      57 ..     146     193 ..     145     197 .. 0.84
+
+>> G3RSG9.1  G3RSG9_GORGO Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   4.1   0.00049   5.7e+02      85     109 ..      34      59 ..       1      61 [. 0.80
+   2 !   16.1   4.2   1.3e-05        15      81     123 ..      61     111 ..      58     112 .. 0.67
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (124 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    690552  (0.0297735); expected 463869.9 (0.02)
+Passed bias filter:                   287433  (0.0123928); expected 463869.9 (0.02)
+Passed Vit filter:                     15564  (0.00067105); expected 23193.5 (0.001)
+Passed Fwd filter:                       258  (1.11238e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):              20  [number of targets reported over threshold]
+# CPU time: 453.85u 8.46s 00:07:42.31 Elapsed: 00:02:25.32
+# Mc/sec: 6482.83
+//
+Query:       Spurious_ORF_24  [M=121]
+Accession:   ANF00024
+Description: Antisense to 23S rRNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (121 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    585497  (0.025244); expected 463869.9 (0.02)
+Passed bias filter:                   365676  (0.0157663); expected 463869.9 (0.02)
+Passed Vit filter:                     19320  (0.000832992); expected 23193.5 (0.001)
+Passed Fwd filter:                       222  (9.57165e-06); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 457.23u 8.42s 00:07:45.65 Elapsed: 00:02:22.01
+# Mc/sec: 6473.43
+//
+Query:       Spurious_ORF_25  [M=95]
+Accession:   ANF00025
+Description: Antisense to 23S rRNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    0.00029   30.9   0.1         10   16.3   0.0    2.2  2  F4RVJ8.1 F4RVJ8_MELLP Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> F4RVJ8.1  F4RVJ8_MELLP Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.7   0.0   5.9e-06   1.4e+02      72      90 ..      35      53 ..      31      58 .. 0.87
+   2 !   16.3   0.0   4.4e-07        10      54      90 ..      77     113 ..      67     118 .. 0.71
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (95 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    467720  (0.020166); expected 463869.9 (0.02)
+Passed bias filter:                   420927  (0.0181485); expected 463869.9 (0.02)
+Passed Vit filter:                     21982  (0.000947766); expected 23193.5 (0.001)
+Passed Fwd filter:                       294  (1.2676e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 404.50u 8.45s 00:06:52.95 Elapsed: 00:02:04.68
+# Mc/sec: 5788.89
+//
+Query:       Spurious_ORF_29  [M=62]
+Accession:   ANF00029
+Description: Antisense to 16S rRNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+     0.0097   25.6   0.4      0.022   24.5   0.0    1.8  1  Q6YSK7.1 Q6YSK7_BRANA Putative uncharacterized protein orf12
+
+
+Domain annotation for each sequence:
+>> Q6YSK7.1  Q6YSK7_BRANA Putative uncharacterized protein orf124
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.5   0.0   9.3e-10     0.022      13      28 ..     104     119 ..      95     123 .. 0.90
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (62 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    448219  (0.0193252); expected 463869.9 (0.02)
+Passed bias filter:                   414997  (0.0178928); expected 463869.9 (0.02)
+Passed Vit filter:                     23569  (0.00101619); expected 23193.5 (0.001)
+Passed Fwd filter:                       276  (1.18999e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 361.18u 8.80s 00:06:09.98 Elapsed: 00:01:58.77
+# Mc/sec: 3966.00
+//
+Query:       Spurious_ORF_39  [M=90]
+Accession:   ANF00039
+Description: Antisense to SRP RNA
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (90 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    461897  (0.0199149); expected 463869.9 (0.02)
+Passed bias filter:                   283309  (0.012215); expected 463869.9 (0.02)
+Passed Vit filter:                     15378  (0.000663031); expected 23193.5 (0.001)
+Passed Fwd filter:                       114  (4.91517e-06); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 398.09u 8.49s 00:06:46.58 Elapsed: 00:02:03.59
+# Mc/sec: 5532.58
+//
+Query:       Spurious_ORF_38  [M=89]
+Accession:   ANF00038
+Description: Overlaps SRP RNA, same strand
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (89 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    389838  (0.0168081); expected 463869.9 (0.02)
+Passed bias filter:                   332617  (0.014341); expected 463869.9 (0.02)
+Passed Vit filter:                     19974  (0.00086119); expected 23193.5 (0.001)
+Passed Fwd filter:                       263  (1.13394e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 399.79u 8.39s 00:06:48.18 Elapsed: 00:02:02.77
+# Mc/sec: 5507.65
+//
+Query:       Spurious_ORF_40  [M=97]
+Accession:   ANF00040
+Description: Overlaps SRP RNA, same strand
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (97 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    497971  (0.0214703); expected 463869.9 (0.02)
+Passed bias filter:                   411436  (0.0177393); expected 463869.9 (0.02)
+Passed Vit filter:                     21748  (0.000937677); expected 23193.5 (0.001)
+Passed Fwd filter:                       175  (7.54522e-06); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 431.59u 8.50s 00:07:20.09 Elapsed: 00:02:18.91
+# Mc/sec: 5305.26
+//
+Query:       Spurious_ORF_54  [M=53]
+Accession:   ANF00054
+Description: Translation of long non-coding RNA DLEU2
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.9e-33  124.1   9.1      2e-33  124.0   6.3    1.0  1  H2P0Y9.1 H2P0Y9_PONAB Uncharacterized protein
+    9.6e-33  121.8   9.4      1e-32  121.7   6.5    1.0  1  H2PZ61.1 H2PZ61_PANTR Uncharacterized protein
+    1.5e-32  121.2   9.0    1.6e-32  121.1   6.2    1.0  1  F7GLZ5.1 F7GLZ5_MACMU Uncharacterized protein
+    2.8e-32  120.3   9.6    3.1e-32  120.2   6.7    1.0  1  Q5JX12.1 Q5JX12_HUMAN Deleted in lymphocytic leukemia 2-like
+    3.8e-32  119.9  13.1    5.2e-32  119.5   9.1    1.2  1  F7HCQ2.1 F7HCQ2_MACMU Uncharacterized protein (Fragment)
+    6.6e-32  119.1   8.1    7.2e-32  119.0   5.6    1.0  1  O43262.2 LEU2_HUMAN Leukemia-associated protein 2
+    8.7e-31  115.5  12.3    1.2e-30  115.1   8.5    1.2  1  G3QSQ5.1 G3QSQ5_GORGO Uncharacterized protein
+    9.7e-30  112.2  12.5    1.3e-29  111.8   8.6    1.2  1  G1RYK1.1 G1RYK1_NOMLE Uncharacterized protein
+    8.9e-23   89.9  11.5    9.8e-23   89.8   8.0    1.0  1  F7IPF0.1 F7IPF0_CALJA Uncharacterized protein (Fragment)
+    1.6e-11   53.8  57.2    3.8e+02   11.0   0.6   14.0  7  Q4FKK5.1 Q4FKK5_TRYB2 Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> H2P0Y9.1  H2P0Y9_PONAB Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  124.0   6.3   8.8e-40     2e-33       1      53 []       1      54 []       1      54 [] 0.99
+
+>> H2PZ61.1  H2PZ61_PANTR Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.7   6.5   4.5e-39     1e-32       1      53 []       1      55 []       1      55 [] 0.99
+
+>> F7GLZ5.1  F7GLZ5_MACMU Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  121.1   6.2   6.9e-39   1.6e-32       1      53 []       1      54 []       1      54 [] 0.99
+
+>> Q5JX12.1  Q5JX12_HUMAN Deleted in lymphocytic leukemia 2-like
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  120.2   6.7   1.3e-38   3.1e-32       1      53 []       1      55 []       1      55 [] 0.99
+
+>> F7HCQ2.1  F7HCQ2_MACMU Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.5   9.1   2.2e-38   5.2e-32       1      53 []      31      84 .]      31      84 .] 0.99
+
+>> O43262.2  LEU2_HUMAN Leukemia-associated protein 2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  119.0   5.6   3.1e-38   7.2e-32       1      53 []       1      55 []       1      55 [] 0.99
+
+>> G3QSQ5.1  G3QSQ5_GORGO Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  115.1   8.5   5.2e-37   1.2e-30       1      49 [.      30      79 ..      30      81 .] 0.98
+
+>> G1RYK1.1  G1RYK1_NOMLE Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  111.8   8.6   5.7e-36   1.3e-29       1      49 [.      30      79 ..      30      81 .] 0.98
+
+>> F7IPF0.1  F7IPF0_CALJA Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   89.8   8.0   4.2e-29   9.8e-23       1      49 [.       5      53 .]       5      53 .] 0.96
+
+>> Q4FKK5.1  Q4FKK5_TRYB2 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.6   3.1    0.0019   4.5e+03       8      39 ..       8      33 ..       1      46 [. 0.79
+   2 !   11.0   0.6   0.00016   3.8e+02      23      39 ..      82      98 ..      79     100 .. 0.85
+   3 !    7.4   0.2    0.0023   5.3e+03      23      34 ..     108     119 ..      99     121 .. 0.84
+   4 !    6.8   0.1    0.0036   8.2e+03      23      33 ..     121     131 ..     118     133 .. 0.86
+   5 !   11.0   0.6   0.00017   3.9e+02      23      39 ..     134     150 ..     131     152 .. 0.85
+   6 !    9.4   0.3   0.00055   1.3e+03      25      35 ..     162     172 ..     157     187 .. 0.56
+   7 !    7.2   1.4    0.0027   6.2e+03      23      39 ..     186     202 ..     184     215 .. 0.86
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (53 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    411836  (0.0177565); expected 463869.9 (0.02)
+Passed bias filter:                   280251  (0.0120832); expected 463869.9 (0.02)
+Passed Vit filter:                     17729  (0.000764395); expected 23193.5 (0.001)
+Passed Fwd filter:                       264  (1.13825e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):              10  [number of targets reported over threshold]
+# CPU time: 353.16u 8.75s 00:06:01.91 Elapsed: 00:01:58.62
+# Mc/sec: 3394.58
+//
+Query:       Spurious_ORF_14  [M=25]
+Accession:   ANF00014
+Description: tRNA translation
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.4e-93  311.9  68.7        1.8   18.6   0.0   28.7 19  A7SIC5.1 A7SIC5_NEMVE Predicted protein
+    1.3e-27  104.1  26.1       0.16   21.9   0.2    6.8  6  I1DXB2.1 I1DXB2_9GAMM Uncharacterized protein
+    1.2e-25   97.9   6.3       0.75   19.8   0.0    5.3  5  Q22B35.2 Q22B35_TETTS Putative uncharacterized protein
+    5.7e-06   35.9   0.5          1   19.4   0.1    3.0  2  Q3KZ34.1 Q3KZ34_NOCSI Putative regulator AraC-type
+    8.5e-06   35.4   1.2       0.79   19.7   0.0    2.9  2  Q3XYJ4.1 Q3XYJ4_ENTFC Putative uncharacterized protein
+    3.2e-05   33.6   0.4     0.0044   26.8   0.0    2.9  1  Q83SY0.1 Q83SY0_SALTI Putative uncharacterized protein
+    5.1e-05   32.9   0.0          2   18.4   0.0    2.2  2  A8UAD3.1 A8UAD3_9LACT Putative uncharacterized protein
+    0.00025   30.7   0.0     0.0059   26.4   0.0    2.0  1  A1ETM4.1 A1ETM4_VIBCL 33 kDa chaperonin (Fragment)
+    0.00083   29.1   0.0      0.052   23.4   0.0    2.5  1  A4EFV9.1 A4EFV9_9RHOB 50S ribosomal protein L36
+      0.001   28.8   0.1      0.002   27.9   0.1    1.5  1  Q8W842.1 Q8W842_PSINU Putative uncharacterized protein
+     0.0013   28.5   0.2     0.0027   27.5   0.1    1.6  1  G9ZVQ1.1 G9ZVQ1_9PROT Endonuclease/exonuclease/phosphatase f
+     0.0013   28.5   0.0     0.0019   28.0   0.0    1.3  1  A4N0P3.1 A4N0P3_HAEIF Putative uncharacterized protein
+     0.0013   28.5   0.0     0.0019   28.0   0.0    1.3  1  A4NHJ4.1 A4NHJ4_HAEIF Putative uncharacterized protein
+     0.0013   28.5   0.0     0.0019   28.0   0.0    1.3  1  A4NT23.1 A4NT23_HAEIF Putative uncharacterized protein
+     0.0013   28.5   0.3     0.0025   27.6   0.2    1.5  1  F7NAP0.1 F7NAP0_XYLFA Putative uncharacterized protein
+     0.0013   28.5   0.3     0.0025   27.6   0.2    1.5  1  Q87CW2.1 Q87CW2_XYLFT Phage-related protein
+     0.0014   28.4   0.3     0.0031   27.3   0.2    1.6  1  Q9PCB7.1 Q9PCB7_XYLFA Phage-related protein
+     0.0019   28.0   0.0     0.0053   26.5   0.0    1.9  1  F3HA61.1 F3HA61_PSESX Flavoprotein monooxygenase (Fragment)
+     0.0021   27.8   0.0     0.0032   27.2   0.0    1.2  1  E0XYP9.1 E0XYP9_9GAMM Putative uncharacterized protein
+     0.0022   27.8   0.2     0.0049   26.7   0.1    1.6  1  A7A485.1 A7A485_BIFAD Putative uncharacterized protein
+     0.0024   27.7   1.1    1.3e+02   12.7   0.1    2.9  2  Q22E32.1 Q22E32_TETTS Putative uncharacterized protein
+     0.0025   27.6   0.0     0.0093   25.8   0.0    2.1  1  F2ZEH6.1 F2ZEH6_9PSED Flavoprotein monooxygenase (Fragment)
+     0.0025   27.6   0.1     0.0037   27.0   0.1    1.3  1  H1EFZ2.1 H1EFZ2_ECOLX Putative uncharacterized protein
+      0.003   27.3   0.0     0.0033   27.2   0.0    1.1  1  F7LEX9.1 F7LEX9_BACOV Putative uncharacterized protein (Frag
+     0.0031   27.3   0.2      0.011   25.5   0.1    2.0  1  Q8X4F0.1 Q8X4F0_ECO57 Putative uncharacterized protein
+     0.0033   27.2   0.7     0.0063   26.3   0.5    1.5  1  I0IKQ5.1 I0IKQ5_9BACT Putative integrase
+     0.0036   27.1   0.0     0.0055   26.5   0.0    1.3  1  Q4N4V1.1 Q4N4V1_THEPA Putative uncharacterized protein
+      0.004   26.9   0.0    2.2e+03    8.9   0.0    4.4  1  E9HTK1.1 E9HTK1_DAPPU Putative uncharacterized protein
+     0.0041   26.9   0.0     0.0084   25.9   0.0    1.6  1  I0G5K2.1 I0G5K2_9BRAD Uncharacterized protein
+     0.0044   26.8   0.9     0.0054   26.5   0.7    1.2  1  C3JI39.1 C3JI39_RHOER Putative uncharacterized protein
+     0.0044   26.8   0.0     0.0099   25.7   0.0    1.6  1  G9L6C0.1 G9L6C0_9CAUD Uncharacterized protein
+     0.0044   26.8   0.0     0.0099   25.7   0.0    1.6  1  Q287B4.2 Q287B4_9CAUD Putative uncharacterized protein
+     0.0045   26.8   0.7     0.0079   26.0   0.5    1.4  1  D5MGK8.1 D5MGK8_9BACT Uncharacterized protein
+     0.0048   26.7   0.0     0.0099   25.7   0.0    1.6  1  A1AE22.1 A1AE22_ECOK1 Putative uncharacterized protein
+     0.0052   26.6   0.0     0.0077   26.0   0.0    1.2  1  A4VQL3.1 A4VQL3_PSEU5 Putative uncharacterized protein
+     0.0057   26.5   1.2      0.011   25.5   0.2    2.1  1  Q8W7G6.1 Q8W7G6_PSINU Putative uncharacterized protein
+     0.0059   26.4   0.1     0.0059   26.4   0.1    1.0  1  A3IJG9.1 A3IJG9_9CHRO Putative uncharacterized protein
+     0.0059   26.4   0.2      0.011   25.6   0.1    1.5  1  H0U083.1 H0U083_9BRAD Protoporphyrin oxidase, flavoprotein
+     0.0064   26.3   0.8     0.0088   25.9   0.5    1.3  1  A8UXU9.1 A8UXU9_9AQUI Putative uncharacterized protein
+      0.007   26.2   0.4     0.0076   26.1   0.3    1.1  1  G7I5J2.1 G7I5J2_MEDTR NAD(P)H-quinone oxidoreductase chain (
+     0.0073   26.1   0.1      0.015   25.1   0.0    1.6  1  Q1MM54.1 Q1MM54_RHIL3 Putative uncharacterized protein
+     0.0075   26.1   0.0      0.017   25.0   0.0    1.6  1  E9VHV3.1 E9VHV3_ECOLX Putative uncharacterized protein
+      0.008   26.0   0.3      0.017   25.0   0.2    1.5  1  F7N707.1 F7N707_XYLFA Putative uncharacterized protein
+      0.008   26.0   0.8      0.047   23.6   0.1    2.3  1  D8G0U9.1 D8G0U9_9CYAN Putative uncharacterized protein
+     0.0085   25.9   0.1      0.011   25.6   0.1    1.1  1  A4NJZ3.1 A4NJZ3_HAEIF Putative uncharacterized protein
+     0.0093   25.8   0.0      0.013   25.3   0.0    1.3  1  G8AZG8.1 G8AZG8_AZOBR Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> A7SIC5.1  A7SIC5_NEMVE Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   11.0   0.0   0.00088   4.4e+02       3      21 ..      92     109 ..      91     113 .. 0.84
+   2 !   10.7   0.0    0.0011   5.5e+02       3      25 .]     126     147 ..     125     147 .. 0.94
+   3 !   14.8   0.0   5.5e-05        28       3      25 .]     195     216 ..     194     216 .. 0.95
+   4 !   18.6   0.0   3.5e-06       1.8       3      25 .]     229     250 ..     228     250 .. 0.95
+   5 !   14.2   0.0   9.1e-05        46       3      25 .]     298     319 ..     297     319 .. 0.95
+   6 !   18.6   0.0   3.5e-06       1.8       3      25 .]     332     353 ..     331     353 .. 0.95
+   7 !   14.1   0.1   9.2e-05        46       4      25 .]     452     472 ..     450     472 .. 0.95
+   8 !   18.6   0.0   3.5e-06       1.8       3      25 .]     485     506 ..     484     506 .. 0.95
+   9 !   13.4   0.0   0.00016        78       3      25 .]     537     558 ..     536     558 .. 0.86
+  10 !   18.6   0.0   3.5e-06       1.8       3      25 .]     571     592 ..     570     592 .. 0.95
+  11 !   18.6   0.0   3.5e-06       1.8       3      25 .]     605     626 ..     604     626 .. 0.95
+  12 !   18.6   0.0   3.5e-06       1.8       3      25 .]     639     660 ..     638     660 .. 0.95
+  13 !   18.6   0.0   3.5e-06       1.8       3      25 .]     708     729 ..     707     729 .. 0.95
+  14 !   14.2   0.0   9.1e-05        46       3      25 .]     742     763 ..     741     763 .. 0.95
+  15 !   18.6   0.0   3.5e-06       1.8       3      25 .]     776     797 ..     775     797 .. 0.95
+  16 !   14.8   0.0   5.5e-05        28       3      25 .]     810     831 ..     809     831 .. 0.95
+  17 !   14.8   0.0   5.5e-05        28       3      25 .]     844     865 ..     843     865 .. 0.95
+  18 !   18.4   0.0   4.2e-06       2.1       3      25 .]     878     899 ..     877     899 .. 0.95
+  19 !   18.6   0.0   3.5e-06       1.8       3      25 .]     912     933 ..     911     933 .. 0.95
+
+>> I1DXB2.1  I1DXB2_9GAMM Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   21.9   0.2   3.2e-07      0.16       1      25 []      21      44 ..      21      44 .. 0.98
+   2 !   21.9   0.2   3.2e-07      0.16       1      25 []      63      86 ..      63      86 .. 0.98
+   3 !   21.9   0.2   3.2e-07      0.16       1      25 []     105     128 ..     105     128 .. 0.98
+   4 !   21.9   0.2   3.2e-07      0.16       1      25 []     147     170 ..     147     170 .. 0.98
+   5 !   21.9   0.2   3.2e-07      0.16       1      25 []     189     212 ..     189     212 .. 0.98
+   6 !   10.6   0.2    0.0012   6.1e+02       1      13 [.     259     271 .]     259     271 .] 0.88
+
+>> Q22B35.2  Q22B35_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.8   0.0   1.5e-06      0.75       1      17 [.      12      28 ..      12      31 .. 0.91
+   2 !   19.8   0.0   1.5e-06      0.75       1      17 [.      38      54 ..      38      57 .. 0.91
+   3 !   19.8   0.0   1.5e-06      0.75       1      17 [.      64      80 ..      64      83 .. 0.91
+   4 !   19.8   0.0   1.5e-06      0.75       1      17 [.      90     106 ..      90     109 .. 0.91
+   5 !   18.4   0.0   4.1e-06       2.1       2      17 ..     117     132 ..     117     135 .. 0.90
+
+>> Q3KZ34.1  Q3KZ34_NOCSI Putative regulator AraC-type
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.4   0.1     2e-06         1       1      20 [.     330     348 ..     330     351 .. 0.91
+   2 !   13.4   0.0   0.00016        79       4      22 ..     363     380 ..     362     381 .. 0.94
+
+>> Q3XYJ4.1  Q3XYJ4_ENTFC Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.7   0.0   1.6e-06      0.79       2      25 .]      39      61 ..      39      61 .. 0.97
+   2 !   13.3   0.0   0.00017        84       5      20 ..      69      84 ..      66      88 .. 0.89
+
+>> Q83SY0.1  Q83SY0_SALTI Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.8   0.0   8.7e-09    0.0044       1      23 [.       2      24 ..       2      25 .. 0.92
+
+>> A8UAD3.1  A8UAD3_9LACT Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.6   0.0   0.00028   1.4e+02       5      20 ..      17      32 ..      14      35 .. 0.92
+   2 !   18.4   0.0     4e-06         2       1      25 []      51      74 ..      51      74 .. 0.98
+
+>> A1ETM4.1  A1ETM4_VIBCL 33 kDa chaperonin (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.4   0.0   1.2e-08    0.0059       1      24 [.      28      50 ..      28      51 .. 0.95
+
+>> A4EFV9.1  A4EFV9_9RHOB 50S ribosomal protein L36
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.4   0.0     1e-07     0.052       4      23 ..      75      93 ..      72      94 .. 0.91
+
+>> Q8W842.1  Q8W842_PSINU Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.9   0.1     4e-09     0.002       2      25 .]      28      51 ..      28      51 .. 0.93
+
+>> G9ZVQ1.1  G9ZVQ1_9PROT Endonuclease/exonuclease/phosphatase family protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.5   0.1   5.4e-09    0.0027       1      22 [.     229     250 .]     229     250 .] 0.97
+
+>> A4N0P3.1  A4N0P3_HAEIF Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   0.0   3.7e-09    0.0019       1      24 [.      25      48 ..      25      49 .. 0.95
+
+>> A4NHJ4.1  A4NHJ4_HAEIF Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   0.0   3.7e-09    0.0019       1      24 [.      25      48 ..      25      49 .. 0.95
+
+>> A4NT23.1  A4NT23_HAEIF Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   28.0   0.0   3.7e-09    0.0019       1      24 [.      25      48 ..      25      49 .. 0.95
+
+>> F7NAP0.1  F7NAP0_XYLFA Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.6   0.2   4.9e-09    0.0025       1      20 [.     105     123 ..     105     123 .. 0.95
+
+>> Q87CW2.1  Q87CW2_XYLFT Phage-related protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.6   0.2   4.9e-09    0.0025       1      20 [.     105     123 ..     105     123 .. 0.95
+
+>> Q9PCB7.1  Q9PCB7_XYLFA Phage-related protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.3   0.2   6.2e-09    0.0031       1      20 [.     124     142 ..     124     142 .. 0.95
+
+>> F3HA61.1  F3HA61_PSESX Flavoprotein monooxygenase (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   1.1e-08    0.0053       1      23 [.      29      51 ..      29      53 .. 0.94
+
+>> E0XYP9.1  E0XYP9_9GAMM Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.0   6.4e-09    0.0032       5      25 .]       2      21 ..       2      21 .. 0.97
+
+>> A7A485.1  A7A485_BIFAD Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.7   0.1   9.8e-09    0.0049       1      25 []      23      47 ..      23      47 .. 0.97
+
+>> Q22E32.1  Q22E32_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   12.7   0.1   0.00026   1.3e+02       2      25 .]     693     715 ..     693     715 .. 0.92
+   2 !   12.7   0.1   0.00026   1.3e+02       2      25 .]     799     821 ..     799     821 .. 0.92
+
+>> F2ZEH6.1  F2ZEH6_9PSED Flavoprotein monooxygenase (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.8   0.0   1.8e-08    0.0093       1      23 [.       2      24 ..       2      26 .. 0.94
+
+>> H1EFZ2.1  H1EFZ2_ECOLX Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.0   0.1   7.4e-09    0.0037       1      22 [.      38      59 .]      38      59 .] 0.93
+
+>> F7LEX9.1  F7LEX9_BACOV Putative uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   27.2   0.0   6.6e-09    0.0033       1      22 [.      11      32 .]      11      32 .] 0.94
+
+>> Q8X4F0.1  Q8X4F0_ECO57 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.1   2.3e-08     0.011       1      22 [.      95     116 .]      95     116 .] 0.93
+
+>> I0IKQ5.1  I0IKQ5_9BACT Putative integrase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.3   0.5   1.3e-08    0.0063       1      25 []     170     193 ..     170     193 .. 0.93
+
+>> Q4N4V1.1  Q4N4V1_THEPA Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.0   1.1e-08    0.0055       1      24 [.       6      29 ..       6      30 .. 0.95
+
+>> E9HTK1.1  E9HTK1_DAPPU Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    8.9   0.0    0.0044   2.2e+03       4      18 ..     118     132 ..     115     133 .. 0.88
+
+>> I0G5K2.1  I0G5K2_9BRAD Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.0   1.7e-08    0.0084       3      25 .]       1      22 [.       1      22 [. 0.95
+
+>> C3JI39.1  C3JI39_RHOER Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.5   0.7   1.1e-08    0.0054       1      20 [.      18      37 .]      18      37 .] 0.96
+
+>> G9L6C0.1  G9L6C0_9CAUD Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0     2e-08    0.0099       1      22 [.      62      83 .]      62      83 .] 0.91
+
+>> Q287B4.2  Q287B4_9CAUD Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0     2e-08    0.0099       1      22 [.      62      83 .]      62      83 .] 0.91
+
+>> D5MGK8.1  D5MGK8_9BACT Uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.5   1.6e-08    0.0079       1      25 []      32      56 ..      32      56 .. 0.97
+
+>> A1AE22.1  A1AE22_ECOK1 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.7   0.0     2e-08    0.0099       1      22 [.      62      83 .]      62      83 .] 0.91
+
+>> A4VQL3.1  A4VQL3_PSEU5 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.0   0.0   1.5e-08    0.0077       1      20 [.      33      51 ..      33      51 .. 0.95
+
+>> Q8W7G6.1  Q8W7G6_PSINU Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.5   0.2   2.3e-08     0.011       2      23 ..      53      73 ..      53      75 .. 0.91
+
+>> A3IJG9.1  A3IJG9_9CHRO Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.4   0.1   1.2e-08    0.0059       5      22 ..       5      22 .]       2      22 .] 0.96
+
+>> H0U083.1  H0U083_9BRAD Protoporphyrin oxidase, flavoprotein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.1   2.2e-08     0.011       1      25 []       4      28 ..       4      28 .. 0.94
+
+>> A8UXU9.1  A8UXU9_9AQUI Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.9   0.5   1.7e-08    0.0088       4      19 ..       4      19 ..       2      25 .. 0.83
+
+>> G7I5J2.1  G7I5J2_MEDTR NAD(P)H-quinone oxidoreductase chain (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   26.1   0.3   1.5e-08    0.0076       4      24 ..      10      30 ..       8      31 .] 0.91
+
+>> Q1MM54.1  Q1MM54_RHIL3 Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.1   0.0     3e-08     0.015       1      24 [.       2      25 ..       2      26 .. 0.94
+
+>> E9VHV3.1  E9VHV3_ECOLX Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.0   3.3e-08     0.017       1      22 [.      91     112 .]      91     112 .] 0.91
+
+>> F7N707.1  F7N707_XYLFA Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.0   0.2   3.3e-08     0.017       2      20 ..     124     141 ..     124     141 .. 0.94
+
+>> D8G0U9.1  D8G0U9_9CYAN Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.6   0.1   9.4e-08     0.047       2      25 .]       4      27 ..       4      27 .. 0.96
+
+>> A4NJZ3.1  A4NJZ3_HAEIF Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.6   0.1   2.2e-08     0.011       1      20 [.      22      40 ..      22      40 .. 0.95
+
+>> G8AZG8.1  G8AZG8_AZOBR Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   25.3   0.0   2.6e-08     0.013       3      24 ..      33      54 ..      31      55 .. 0.93
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (25 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    351637  (0.015161); expected 463869.9 (0.02)
+Passed bias filter:                   272336  (0.0117419); expected 463869.9 (0.02)
+Passed Vit filter:                     18074  (0.00077927); expected 23193.5 (0.001)
+Passed Fwd filter:                       713  (3.07414e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):              46  [number of targets reported over threshold]
+# CPU time: 297.74u 8.36s 00:05:06.10 Elapsed: 00:01:57.56
+# Mc/sec: 1615.66
+//
+Query:       Spurious_ORF_13  [M=24]
+Accession:   ANF00013
+Description: tRNA translation
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    2.9e-07   39.9   3.8       0.25   21.1   0.2    2.6  2  B9PEB0.1 B9PEB0_POPTR Predicted protein (Fragment)
+    3.4e-07   39.7  37.8    7.8e+03    6.7   0.1   13.4 10  A7SSY0.1 A7SSY0_NEMVE Predicted protein (Fragment)
+    8.4e-07   38.5  16.9    7.3e+02   10.0   0.1    5.5  5  A7SVD6.1 A7SVD6_NEMVE Predicted protein
+    2.3e-05   33.9  14.8    8.2e+02    9.9   0.1    5.6  4  A7SW34.1 A7SW34_NEMVE Predicted protein
+    0.00013   31.5   8.4        2.8   17.7   0.8    2.4  2  Q22AF5.1 Q22AF5_TETTS Putative uncharacterized protein
+    0.00045   29.8  29.1    1.2e+02   12.5   1.0    5.2  4  Q22CG4.1 Q22CG4_TETTS Putative uncharacterized protein
+     0.0047   26.6  15.1        7.4   16.4   2.5    2.1  2  Q22FX3.1 Q22FX3_TETTS Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> B9PEB0.1  B9PEB0_POPTR Predicted protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   19.2   0.2   2.9e-07      0.95       6      22 ..       2      18 ..       2      18 .. 0.96
+   2 !   21.1   0.2   7.5e-08      0.25       2      22 ..     151     171 ..     150     171 .. 0.90
+
+>> A7SSY0.1  A7SSY0_NEMVE Predicted protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    6.5   0.1    0.0028   9.4e+03       4      15 ..       7      18 ..       4      19 .. 0.80
+   2 !    6.4   0.1    0.0029   9.7e+03       4      16 ..      16      28 ..      16      28 .. 0.86
+   3 !    5.4   0.1    0.0064   2.1e+04       4      16 ..      25      37 ..      25      37 .. 0.84
+   4 !    5.4   0.1    0.0064   2.1e+04       4      16 ..      34      46 ..      34      46 .. 0.84
+   5 !    6.7   0.1    0.0024   7.9e+03       4      16 ..      52      64 ..      49      64 .. 0.86
+   6 !    5.4   0.1    0.0064   2.1e+04       4      16 ..      61      73 ..      61      73 .. 0.84
+   7 !    5.6   0.2    0.0055   1.8e+04       4      16 ..      70      82 ..      67      82 .. 0.85
+   8 !    6.7   0.1    0.0024   7.8e+03       4      16 ..      88     100 ..      85     100 .. 0.86
+   9 !    5.4   0.1    0.0064   2.1e+04       4      16 ..      97     109 ..      97     109 .. 0.84
+  10 !    6.0   0.1    0.0041   1.4e+04       4      15 ..     133     144 ..     130     145 .. 0.84
+
+>> A7SVD6.1  A7SVD6_NEMVE Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.6   0.8    0.0003   9.8e+02       1      16 [.      21      36 ..      21      36 .. 0.95
+   2 !   10.0   0.1   0.00022   7.3e+02       5      16 ..      41      52 ..      41      54 .. 0.92
+   3 !   10.0   0.1   0.00022   7.3e+02       5      16 ..     125     136 ..     125     138 .. 0.92
+   4 !    7.1   0.0    0.0018   5.9e+03       5      16 ..     205     216 ..     205     218 .. 0.89
+   5 !   10.0   0.1   0.00022   7.3e+02       5      16 ..     285     296 ..     285     298 .. 0.92
+
+>> A7SW34.1  A7SW34_NEMVE Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    9.9   0.1   0.00025   8.2e+02       5      16 ..      91     102 ..      91     104 .. 0.92
+   2 !    9.9   0.1   0.00025   8.2e+02       5      16 ..     171     182 ..     171     184 .. 0.92
+   3 !    9.9   0.1   0.00025   8.2e+02       5      16 ..     247     258 ..     247     260 .. 0.92
+   4 !    9.9   0.1   0.00025   8.2e+02       5      16 ..     327     338 ..     327     340 .. 0.92
+
+>> Q22AF5.1  Q22AF5_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   17.7   0.8   8.4e-07       2.8       6      22 ..     575     591 ..     575     593 .. 0.92
+   2 !   17.7   0.8   8.4e-07       2.8       6      22 ..     638     654 ..     638     656 .. 0.92
+
+>> Q22CG4.1  Q22CG4_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   10.2   0.8   0.00019   6.2e+02       2      17 ..      32      47 ..      32      47 .. 0.96
+   2 !   12.5   1.0   3.6e-05   1.2e+02       2      17 ..     109     124 ..     109     124 .. 0.96
+   3 !   11.1   0.2    0.0001   3.4e+02       2      16 ..     168     182 ..     168     183 .. 0.91
+   4 !   12.5   1.0   3.6e-05   1.2e+02       2      17 ..     247     262 ..     247     262 .. 0.96
+
+>> Q22FX3.1  Q22FX3_TETTS Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   16.4   2.5   2.2e-06       7.4       3      21 ..       7      25 ..       5      28 .. 0.94
+   2 !   16.4   2.5   2.2e-06       7.4       3      21 ..      59      77 ..      57      80 .. 0.94
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (24 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    529566  (0.0228325); expected 463869.9 (0.02)
+Passed bias filter:                   336803  (0.0145214); expected 463869.9 (0.02)
+Passed Vit filter:                     23271  (0.00100334); expected 23193.5 (0.001)
+Passed Fwd filter:                       495  (2.13422e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 301.46u 8.36s 00:05:09.82 Elapsed: 00:01:57.89
+# Mc/sec: 1546.69
+//
+Query:       Spurious_ORF_12  [M=25]
+Accession:   ANF00012
+Description: tRNA translation
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    3.4e-10   48.9   0.2    1.1e+02   12.3   0.0    5.3  5  H2Y8W0.1 H2Y8W0_CIOSA Uncharacterized protein (Fragment)
+    1.3e-05   34.3   0.2    3.9e+03    7.4   0.0    5.3  4  H2YKW3.1 H2YKW3_CIOSA Uncharacterized protein (Fragment)
+    0.00017   30.8   3.0       0.02   24.2   0.2    2.3  2  B0RSE9.1 B0RSE9_XANCB Putative uncharacterized protein
+    0.00024   30.3  18.3    4.1e+04    4.2   0.0   11.2  0  C3ZVP7.1 C3ZVP7_BRAFL Putative uncharacterized protein (Frag
+     0.0062   25.9   0.1      0.012   24.9   0.1    1.5  1  B4VF07.1 B4VF07_9ACTO Putative uncharacterized protein
+     0.0069   25.7   0.0      0.018   24.4   0.0    1.8  1  Q7UC35.1 Q7UC35_SHIFL Putative uncharacterized protein
+     0.0083   25.5   0.0      0.022   24.1   0.0    1.7  1  A0Y6D7.1 A0Y6D7_9GAMM Putative uncharacterized protein
+
+
+Domain annotation for each sequence:
+>> H2Y8W0.1  H2Y8W0_CIOSA Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.4   0.0    0.0012   3.9e+03       5      16 ..      19      30 ..      17      31 .. 0.90
+   2 !   12.3   0.0   3.4e-05   1.1e+02       5      18 ..      59      72 ..      58      72 .. 0.92
+   3 !    4.7   0.0    0.0082   2.7e+04       5      18 ..      99     112 ..      97     112 .. 0.89
+   4 !    8.8   0.0   0.00044   1.5e+03       5      18 ..     139     152 ..     137     152 .. 0.90
+   5 !    8.8   0.0   0.00044   1.5e+03       5      18 ..     179     192 ..     177     192 .. 0.90
+
+>> H2YKW3.1  H2YKW3_CIOSA Uncharacterized protein (Fragment)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.4   0.0    0.0012   3.9e+03       5      16 ..      60      71 ..      58      72 .. 0.90
+   2 !    7.4   0.0    0.0012     4e+03       5      16 ..     100     111 ..      98     111 .. 0.89
+   3 !    5.9   0.0    0.0037   1.2e+04       5      16 ..     140     151 ..     138     152 .. 0.87
+   4 !    4.7   0.0    0.0083   2.7e+04       5      18 ..     180     193 ..     178     193 .. 0.89
+
+>> B0RSE9.1  B0RSE9_XANCB Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !    7.0   0.1    0.0016   5.2e+03       1       9 [.      17      25 ..      17      25 .. 0.94
+   2 !   24.2   0.2     6e-09      0.02       1      25 []      58      82 ..      58      82 .. 0.96
+
+>> C3ZVP7.1  C3ZVP7_BRAFL Putative uncharacterized protein (Fragment)
+   [No individual domains that satisfy reporting thresholds (although complete target did)]
+
+>> B4VF07.1  B4VF07_9ACTO Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.9   0.1   3.6e-09     0.012       1      23 [.      19      41 ..      19      43 .. 0.91
+
+>> Q7UC35.1  Q7UC35_SHIFL Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.4   0.0   5.4e-09     0.018       1      25 []      71      95 ..      71      95 .. 0.97
+
+>> A0Y6D7.1  A0Y6D7_9GAMM Putative uncharacterized protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   24.1   0.0   6.6e-09     0.022       1      25 []      16      40 ..      16      40 .. 0.97
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (25 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    448727  (0.0193471); expected 463869.9 (0.02)
+Passed bias filter:                   364935  (0.0157344); expected 463869.9 (0.02)
+Passed Vit filter:                     23087  (0.000995408); expected 23193.5 (0.001)
+Passed Fwd filter:                       594  (2.56106e-05); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               7  [number of targets reported over threshold]
+# CPU time: 301.44u 8.34s 00:05:09.77 Elapsed: 00:01:58.08
+# Mc/sec: 1608.54
+//
+Query:       Spurious_ORF_07  [M=609]
+Accession:   ANF00007
+Description: Shadow ORF
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each sequence:
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (609 nodes)
+Target sequences:                   23193494  (7597456855 residues)
+Passed MSV filter:                    631811  (0.0272409); expected 463869.9 (0.02)
+Passed bias filter:                   274446  (0.0118329); expected 463869.9 (0.02)
+Passed Vit filter:                     20086  (0.000866019); expected 23193.5 (0.001)
+Passed Fwd filter:                        81  (3.49236e-06); expected 231.9 (1e-05)
+Initial search space (Z):           23193494  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 1238.76u 8.30s 00:20:47.06 Elapsed: 00:05:13.36
+# Mc/sec: 14765.29
+//
