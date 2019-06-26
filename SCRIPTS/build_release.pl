@@ -11,16 +11,16 @@ my $seqdb='/nfs/production/xfam/pfam/data/pfamseq31/pfamseq';
 my $release=shift @ARGV;
 
 if (! $release){
-    die "Please add release number to run this program!";
+  die "Please add release number to run this program!";
 }
 
 print STDERR "Creating new AntiFam release $release\n";
 my $release_dir="$antifam_root/RELEASES/$release";
 
 if (! -d $release_dir){
-    system("mkdir $release_dir");
+  system("mkdir $release_dir");
 } else {
-    die "$release_dir already exists. Will not try and overwrite an existing release!";
+  die "$release_dir already exists. Will not try and overwrite an existing release!";
 }
 
 # Get all seed files;
@@ -33,7 +33,7 @@ shift  @list;
 shift  @list;
 
 if (-e "$release_dir/AntiFam.seed"){
-    die "You appear to have already made $release_dir/AntiFam.seed";
+  die "You appear to have already made $release_dir/AntiFam.seed";
 }
 
 #set up arrays for each tax-specific set to go into
@@ -45,78 +45,78 @@ my @unknown_set;
 
 #populate the arrays with the file names for the entries which will go in each tax-specific set
 foreach my $file (@list){
-    open (FILE, "$antifam_root/ENTRIES/$file") or die "cannot open $!\n";
-    while(<FILE>){
-	if (/^\#=GF\sTX.+Eukaryota.+$/){
-	    push (@eukaryota_set, $file);
-	} if (/^\#=GF\sTX.+Bacteria.+$/){
-	    push (@bacteria_set, $file);
-	} if (/^\#=GF\sTX.+Archaea.+$/){
-	    push (@archaea_set, $file);
-	} if (/^\#=GF\sTX.+Virus.+$/){
-	    push (@virus_set, $file);
-	} if (/^\#=GF\sTX.+unidentified.+$/){
-	    push (@unknown_set, $file);
-	}
+  open (FILE, "$antifam_root/ENTRIES/$file") or die "cannot open $!\n";
+  while(<FILE>){
+    if (/^\#=GF\sTX.+Eukaryota.+$/){
+      push (@eukaryota_set, $file);
+    } if (/^\#=GF\sTX.+Bacteria.+$/){
+      push (@bacteria_set, $file);
+    } if (/^\#=GF\sTX.+Archaea.+$/){
+      push (@archaea_set, $file);
+    } if (/^\#=GF\sTX.+Virus.+$/){
+      push (@virus_set, $file);
+    } if (/^\#=GF\sTX.+unidentified.+$/){
+      push (@unknown_set, $file);
     }
-    close(FILE);
+  }
+  close(FILE);
 }
 
 #catenate seed files for all of antifam
 my $num_entries=0;
 print STDERR "Catenating seed files\n";
 foreach my $file (@list){
-    if ($file =~ /(.*\.seed$)/){
-	system ("cat $antifam_root/ENTRIES/$file >> $release_dir/AntiFam.seed");
-	$num_entries++;
-    }
+  if ($file =~ /(.*\.seed$)/){
+    system ("cat $antifam_root/ENTRIES/$file >> $release_dir/AntiFam.seed");
+    $num_entries++;
+  }
 }
 
 #catenate seed files for tax-specific sets
 my $num_eukaryota=0;
 print STDERR "Catenating eukaryote seed files\n";
 foreach my $entry (@eukaryota_set){
-    if ($entry =~ /(.*\.seed$)/){
-	system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Eukaryota.seed");
-	$num_eukaryota++;
-    }
+  if ($entry =~ /(.*\.seed$)/){
+    system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Eukaryota.seed");
+    $num_eukaryota++;
+  }
 }
 my $num_bacteria=0;
 print STDERR "Catenating bacteria seed files\n";
 foreach my $entry (@bacteria_set){
-    if ($entry =~ /(.*\.seed$)/){
-	system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Bacteria.seed");
-	$num_bacteria++;
-    }
- }
+  if ($entry =~ /(.*\.seed$)/){
+    system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Bacteria.seed");
+    $num_bacteria++;
+  }
+}
 
 my $num_archaea=0;
 print STDERR "Catenating archaea seed files\n";
 foreach my $entry (@archaea_set){
-    if ($entry =~ /(.*\.seed$)/){
-	system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Archaea.seed");
-	$num_archaea++;
-    }
+  if ($entry =~ /(.*\.seed$)/){
+    system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Archaea.seed");
+    $num_archaea++;
+  }
 }
 
 my $num_virus=0;
 print STDERR "Catenating virus seed files\n";
 foreach my $entry (@virus_set){
-    if ($entry =~ /(.*\.seed$)/){
-	system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Virus.seed");
-	$num_virus++;
-    }
+  if ($entry =~ /(.*\.seed$)/){
+    system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Virus.seed");
+    $num_virus++;
+  }
 }
 
 my $num_unidentified=0;
 print STDERR "Catenating virus seed files\n";
 foreach my $entry (@unknown_set){
-    if ($entry =~ /(.*\.seed$)/){
-	system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Unidentified.seed");
-	$num_unidentified++;
-    }
+  if ($entry =~ /(.*\.seed$)/){
+    system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Unidentified.seed");
+    $num_unidentified++;
+  }
 }
-    
+
 # Should really strip out GA lines as these may be for previous HMMER releases!
 chdir $release_dir;
 
@@ -153,23 +153,23 @@ system ("cp $antifam_root/relnotes $release_dir");
 
 # Create version file
 my $date;
-    open (DATE, 'date |') or die "Cannot run date command";
-    while(<DATE>){
-	$date=$_;
-    }
-    close DATE;
-    chomp $date;
-    open (FH, "> version") or die "Cannot write to file version";
-    print FH "AntiFam release: $release\nAntiFam families: $num_entries\nDate: $date\n";
-    close FH;
+open (DATE, 'date |') or die "Cannot run date command";
+while(<DATE>){
+  $date=$_;
+}
+close DATE;
+chomp $date;
+open (FH, "> version") or die "Cannot write to file version";
+print FH "AntiFam release: $release\nAntiFam families: $num_entries\nDate: $date\n";
+close FH;
 
 # Make tar file - putting all hmms/seeds in one. Could later split to do tax specific tars
 print STDERR "Tar up release files:\n";
-    system("tar -cvf AntiFam_$release.tar AntiFam.seed AntiFam_Eukaryota.seed AntiFam_Bacteria.seed AntiFam_Archaea.seed AntiFam_Virus.seed AntiFam_Unidentified.seed AntiFam.hmm AntiFam_Eukaryota.hmm AntiFam_Bacteria.hmm AntiFam_Archaea.hmm AntiFam_Virus.hmm AntiFam_Unidentified.hmm relnotes version");
-    if (-e "AntiFam_$release.tar"){
-	system("gzip AntiFam_$release.tar");
-    } else {
-	die "Failed to make tar file";
-    }
+system("tar -cvf AntiFam_$release.tar AntiFam.seed AntiFam_Eukaryota.seed AntiFam_Bacteria.seed AntiFam_Archaea.seed AntiFam_Virus.seed AntiFam_Unidentified.seed AntiFam.hmm AntiFam_Eukaryota.hmm AntiFam_Bacteria.hmm AntiFam_Archaea.hmm AntiFam_Virus.hmm AntiFam_Unidentified.hmm relnotes version");
+if (-e "AntiFam_$release.tar"){
+  system("gzip AntiFam_$release.tar");
+} else {
+  die "Failed to make tar file";
+}
 
 
