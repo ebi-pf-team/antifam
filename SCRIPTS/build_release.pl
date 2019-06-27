@@ -2,17 +2,24 @@
 
 use strict;
 use warnings;
+use Cwd;
+use Config::General;
 
 # Scripts to build a release of AntiFam
 
 my $antifam_root='/nfs/production/xfam/antifam';
-my $seqdb='/nfs/production/xfam/pfam/data/pfamseq31/pfamseq';
 
 my $release=shift @ARGV;
 
 if (! $release){
   die "Please add release number to run this program!";
 }
+
+#Read Pfam config to get uniprot location
+my $conf = read_pfam_config();
+my $uniprot = $conf->{uniprot}->{location}."/uniprot";
+
+my $dir = getcwd
 
 print STDERR "Creating new AntiFam release $release\n";
 my $release_dir="$antifam_root/RELEASES/$release";
@@ -109,7 +116,7 @@ foreach my $entry (@virus_set){
 }
 
 my $num_unidentified=0;
-print STDERR "Catenating virus seed files\n";
+print STDERR "Catenating unidentified seed files\n";
 foreach my $entry (@unknown_set){
   if ($entry =~ /(.*\.seed$)/){
     system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Unidentified.seed");
@@ -164,7 +171,7 @@ print FH "AntiFam release: $release\nAntiFam families: $num_entries\nDate: $date
 close FH;
 
 # Make tar file - putting all hmms/seeds in one. Could later split to do tax specific tars
-print STDERR "Tar up release files:\n";
+print STDERR "Tar up release files\n";
 system("tar -cvf AntiFam_$release.tar AntiFam.seed AntiFam_Eukaryota.seed AntiFam_Bacteria.seed AntiFam_Archaea.seed AntiFam_Virus.seed AntiFam_Unidentified.seed AntiFam.hmm AntiFam_Eukaryota.hmm AntiFam_Bacteria.hmm AntiFam_Archaea.hmm AntiFam_Virus.hmm AntiFam_Unidentified.hmm relnotes version");
 if (-e "AntiFam_$release.tar"){
   system("gzip AntiFam_$release.tar");
@@ -172,4 +179,37 @@ if (-e "AntiFam_$release.tar"){
   die "Failed to make tar file";
 }
 
+#Submit the hmmsearch jobs to the farm
+chdir($dir) or die "Couldn't chdir $dir, $!"; 
+my $options = "-q ".$conf->{farm}->{lsf}->{queue}." -M 2000 -R \"rusage[mem=2000]\"";
 
+foreach my $type (qw/All Archaea Bacteria Eukaryota Unidentified Virus/) {
+  print STDERR "Submitting $type hmmsearch to farm\n";
+  my $log_file = "$type.log";
+
+  my ($hmm_file, $output_file);
+  if($type eq "All") {
+    $hmm_file = "AntiFam.hmm";
+    $output_file = "Antifam.output";
+  }
+  else {
+    $hmm_file = "AntiFam_"."$type.hmm";
+    $output_file = "Antifam_"."$type.output";
+  }
+
+  system("bsub $options -o $log_file -J$type 'hmmsearch --noali --cpu 4 -E 0.01 --domE 0.01 $release_dir/$hmm_file $uniprot > $output_file'");
+}
+
+
+sub read_pfam_config {
+
+  unless($ENV{PFAM_CONFIG} and -s $ENV{PFAM_CONFIG}) {
+    die "Can't locate the Pfam config\n";
+  }
+
+  my ($conf) = $ENV{PFAM_CONFIG} =~ m/([\d\w\/\-\.]+)/;
+  my $c      = new Config::General($conf);
+  my %ac     = $c->getall;
+
+  return(\%ac);
+}
