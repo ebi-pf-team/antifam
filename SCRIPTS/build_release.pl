@@ -14,6 +14,16 @@ my $release=shift @ARGV;
 if (! $release){
   die "Please add release number to run this program!";
 }
+my $old_release;
+if($release =~ /(\d+)\.0/) {
+  my $x=$1;
+  $x--;
+  $old_release = $x.".0"; 
+}
+else {
+  die "Release is in the wrong format, it should be in the format X.0 (eg 5.0)\n";
+}
+
 
 #Read Pfam config to get uniprot location
 my $conf = read_pfam_config();
@@ -156,7 +166,8 @@ system ("hmmpress AntiFam_Unidentified.hmm");
 
 # Copy relnotes to dir
 print STDERR "Copying relnotes file to release. Please make sure it is up to date!\n";
-system ("cp $antifam_root/relnotes $release_dir");
+system ("cp $antifam_root/RELEASES/$old_release/relnotes $release_dir");
+
 
 # Create version file
 my $date;
