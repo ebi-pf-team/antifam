@@ -24,7 +24,6 @@ else {
   die "Release is in the wrong format, it should be in the format X.0 (eg 5.0)\n";
 }
 
-
 #Read Pfam config to get uniprot location
 my $conf = read_pfam_config();
 my $uniprot = $conf->{uniprot}->{location}."/uniprot";
@@ -164,10 +163,33 @@ system ("hmmpress AntiFam_Archaea.hmm");
 system ("hmmpress AntiFam_Virus.hmm");
 system ("hmmpress AntiFam_Unidentified.hmm");
 
-# Copy relnotes to dir
-print STDERR "Copying relnotes file to release. Please make sure it is up to date!\n";
-system ("cp $antifam_root/RELEASES/$old_release/relnotes $release_dir");
-
+# Copy relnotes to dir and add the number of entries to it
+my $old_relnotes = "$antifam_root/RELEASES/$old_release/relnotes";
+unless(-s $old_relnotes) {
+  die "Could not locate relnotes files from the last release, expecting to find it in here: $antifam_root/RELEASES/$old_release/relnotes\n";
+}
+my $new_relnotes = "$release_dir/relnotes";
+open(NEWRN, ">$new_relnotes") or die "Couldn't open fh to $new_relnotes, $!";
+open(OLDRN, $old_relnotes) or die "Couldn't open fh to $old_relnotes, $!";
+my $added_line;
+while(<OLDRN>) {
+  if(/^\s+$old_release\s+\d+/) {
+    print NEWRN $_;
+    my $num = sprintf ('%8s', $num_entries);
+    print NEWRN "   $release $num\n";
+    $added_line=1;
+  }
+  else {
+    print NEWRN $_;
+  }
+}
+close OLDRN;
+if($added_line) {
+  print STDERR "Please check the number of entries for release $release has been added correctly to relnotes\n";
+}
+else {
+  die "Unable to add number of entries for this release to the relnotes\n";
+}
 
 # Create version file
 my $date;
@@ -190,7 +212,7 @@ if (-e "AntiFam_$release.tar"){
   die "Failed to make tar file";
 }
 
-#Submit the hmmsearch jobs to the farm
+#Submit the hmmsearch jobs against uniprot to the farm
 chdir($dir) or die "Couldn't chdir $dir, $!"; 
 my $options = "-q ".$conf->{farm}->{lsf}->{queue}." -M 2000 -R \"rusage[mem=2000]\"";
 
