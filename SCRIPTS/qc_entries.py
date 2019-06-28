@@ -5,7 +5,7 @@ import os,re,pdb
 
 def init_logfile(logfile):
     logf = open(logfile, "w")
-    logf.write("This is a list of potential flaws in .../antifam/ENTRIES. Created with qc_entries.py.\n\n")
+    logf.write("This is a list of potential flaws in /nfs/production/xfam/antifam/ENTRIES/. Created with qc_entries.py.\n\n")
     logf.write("Seed File         Problem description\n--------------------------------------\n")
     return logf
 
@@ -87,7 +87,7 @@ if os.path.isfile('diagnosis.log'):
 #Init logfile, specify path to seed folder
 outfile = 'diagnosis.log'
 logf = init_logfile(outfile)
-path = '../ENTRIES/'
+path = '/nfs/production/xfam/antifam/ENTRIES/'
 global n_flaws
 n_flaws = 0
 
