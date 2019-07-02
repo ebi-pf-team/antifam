@@ -1,0 +1,6 @@
+All             1745
+Archaea           93
+Bacteria        1685
+Eukaryota        513
+Unidentified     220
+Virus            157
