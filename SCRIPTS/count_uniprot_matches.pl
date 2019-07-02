@@ -1,4 +1,9 @@
 #!/usr/bin/env perl
+#
+#Script to count number of uniprot matches to different Antifam HMM files
+#Run this after the hmmsearch jobs submitted in build_release.pl have
+#finished running. It needs to be run in the same dir as the output from 
+#the hmmsearch jobs.
 
 use strict;
 use warnings;
