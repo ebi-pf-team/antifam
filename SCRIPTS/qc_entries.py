@@ -10,7 +10,7 @@ def init_logfile(logfile):
     return logf
 
 def test_if_compulsory_entries_exit(path,filename, n_flaws):
-    #compuls = ["ID", "AC","DE","DO", "AU", "SE", "CC", ]#, "SS", "BM", "SM", "GA", "TC", "NC", "TP", "SQ"]
+    #compuls = ["ID", "AC","DE","DO", "AU", "SE", "CC", ]#, "SS", "BM", "SM", "GA", "TP", "SQ"]
     #prefix = '#=GF'
 
     with open(path+filename) as seedfile:
@@ -48,12 +48,6 @@ def test_if_compulsory_entries_exit(path,filename, n_flaws):
     #SQ
     if not re.findall(r'(?<=\n#=GF\ )(SQ)(?=\s+\d)',f):
         logf.write("{0}     \"SQ\" identifier missing or flawed (Value not a number?)\n".format(filename)); n_flaws+=1
-    #TC
-    if not re.findall(r'(?<=\n#=GF\ )(TC)(?=\s+\d)',f):
-        logf.write("{0}     \"TC\" identifier missing or flawed (Value not a number?)\n".format(filename)); n_flaws+=1
-    #NC
-    if not re.findall(r'(?<=\n#=GF\ )(NC)(?=\s+(?:\d|-))',f):
-        logf.write("{0}     \"NC\" identifier missing or flawed (Value not a number?)\n".format(filename)); n_flaws+=1
     #BM
     if not re.findall(r'(?<=\n#=GF\ )(BM)(?=[^\n])',f):
         logf.write("{0}     \"BM\" identifier missing or flawed (Value not a number?)\n".format(filename)); n_flaws+=1
@@ -63,7 +57,11 @@ def test_if_compulsory_entries_exit(path,filename, n_flaws):
     #TX
     if not re.findall(r'(?<=\n#=GF\ )(TX)(?=\s+(?:Bacteria|Eukaryota|Bacteria|Archaea|Virus|unidentified))',f):
         logf.write("{0}     \"TX\" identifier missing or flawed (Unknown species?)\n".format(filename)); n_flaws+=1
+    #//
+    if not re.findall(r'\/\/\n',f):
+        logf.write("{0}     \"//\" record seperator missing or lacking final newline \n".format(filename)); n_flaws+=1
     
+
     ### Check non-existence of undesired entries ###
     
     #AM
