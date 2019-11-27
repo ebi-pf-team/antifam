@@ -17,7 +17,7 @@ unless($release_dir and -s $release_dir) {
 }
 
 open(OUTFILE, ">$release_dir/uniprot.txt") or die "Couldn't open fh to $release_dir/uniprot.txt, $!";
-foreach my $type (qw/All Archaea Bacteria Eukaryota Unidentified Virus/) {
+foreach my $type (qw/All Archaea Bacteria Eukaryota Virus/) {
   my $file;
 
   if($type eq "All") {
