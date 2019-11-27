@@ -1,0 +1,18 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_124
+#=GF AC   ANF00124
+#=GF DE   Shadow ORF (opposite mscK)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A011P9H2
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Mechanosensitive channel MscK.
+#=GF SQ   3
+A0A1A9X738.1/148-185    ..........................................IVTVSPIRIGFSNKIINPDTKLAKISCNPNPKPTPKAA
+A0A011P9H2.1/8-87       SVQFTSLSASSIPLGTTTSAPSKVVMMVARMPMSRTLPLIPATSTTSPSRIGRSNIRISPATKFFTTSCRPKPMPTPSAP
+A0A1A9UKC0.1/62-141     SDQLTNCSVINALFGTIISFLSQSVIVVARVLILVILPVKLRIVTVSPIRIGFSNKMINPDTKLAKISCNPNPKPTPNAA
+//

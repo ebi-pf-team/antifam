@@ -7,12 +7,10 @@
 #=GF AU   Eberhardt R
 #=GF SE   Jackhmmer:C4FHJ5
 #=GF GA   27.00 27.00;
-#=GF TC   28.10 27.70;
-#=GF NC   25.70 25.20;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 15929002 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family
-#=GF TX   Eukaryota; Bacteria; unidentified;
+#=GF TX   Eukaryota; Bacteria;
 #=GF WK   Domain_of_unknown_function
 #=GF CC   This family was originally annotated as DUF4323, PF14211. The family 
 #=GF CC   was deleted from Pfam as it was identified as antisense to 23S rRNA.

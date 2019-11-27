@@ -1,0 +1,17 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_186
+#=GF AC   ANF00186
+#=GF DE   Shadow ORF (opposite rpmB)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A073IPD0
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   50S ribosomal protein L28.
+#=GF SQ   2
+A0A073IPD0.1/7-65    KRAALNGSLYFSGTKALGADMKSARFSSAYVYLDALNVDEPAASRMAVGMADGVPCYGA
+I4BW29.1/9-67        KSGLLNSPLDQTGTQTTGAYLHSFFNTAPKVYVHNLQVDEPTTAGFAVRVADVISRYWA
+//

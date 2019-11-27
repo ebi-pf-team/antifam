@@ -1,0 +1,17 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_184
+#=GF AC   ANF00184
+#=GF DE   Shadow ORF (opposite pur8)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A069JZS8
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Puromycin resistance protein pur8.
+#=GF SQ   2
+V6KS78.1/34-74        PIGTLTNSTRRQSSQSVSMPPTSRPIAPPPADTAANTPKAR
+A0A0Q7JSN8.1/34-74    PMGTLTYITQRHETHSTSMPPATRPMAAPPMETAVNRPRAR
+//

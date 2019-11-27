@@ -1,0 +1,18 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_189
+#=GF AC   ANF00189
+#=GF DE   Shadow ORF (opposite fumA)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A074TK72
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Fumarate hydratase class I, aerobic.
+#=GF SQ   3
+A0A2X4WRB9.1/37-81    ARQANYADIVGEIFTTKLRANAKFAAGIEQGLFKRSIAERLAQFI
+R5YC54.1/173-217      SRQTDNTHIMCKIFTAELSTYSRFLRRTQNLFFELYVSERVSQLI
+A0A433TKS0.1/11-55    SRQSHYTHVVTEIFSSELGSDADLLRHLKDLFLQVQVSERPPMLV
+//

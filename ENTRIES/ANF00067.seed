@@ -6,8 +6,6 @@
 #=GF AU   Hoeps W
 #=GF SE   Pfam-B_4250 (release 23.0)
 #=GF GA   19.20 19.20;
-#=GF TC   22.60 19.30;
-#=GF NC   18.30 17.30;
 #=GF TX   Bacteria; 
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 26740544 -E 1000 --cpu 4 HMM pfamseq

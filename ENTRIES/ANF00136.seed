@@ -1,0 +1,18 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_136
+#=GF AC   ANF00136
+#=GF DE   Shadow ORF (opposite garK)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A011PDG7
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Glycerate 2-kinase.
+#=GF SQ   2
+A0A011PDG7.1/10-73    MPAPPSFVALPPMPMMIRRSPQSSAARISSPVPKVVVSRGSRWPGASSGSPDAAAISTTAVVPS
+A0A0D0H4W0.1/1-64     MPVPPSLVADPPTLNSISVAPPSSAARMSSPTPNVSASSGRSGSSLTHGSPLASAASTIAVEPS
+//
+

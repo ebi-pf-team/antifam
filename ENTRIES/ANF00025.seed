@@ -7,8 +7,6 @@
 #=GF AU   Eberhardt R
 #=GF SE   Jackhmmer:C4FHJ6
 #=GF GA   27.00 27.00;
-#=GF TC   27.20 27.20;
-#=GF NC   23.70 23.70;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 15929002 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family

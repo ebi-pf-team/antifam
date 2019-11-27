@@ -6,8 +6,6 @@
 #=GF AU   Eberhardt R
 #=GF SE   Jackhmmer:O43262
 #=GF GA   27.00 27.00;
-#=GF TC   53.80 89.80;
-#=GF NC   19.50 18.50;
 #=GF TP   Family
 #=GF TX   Eukaryota;
 #=GF BM   hmmbuild HMM.ann SEED.ann

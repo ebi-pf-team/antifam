@@ -6,8 +6,6 @@
 #=GF AU   Eberhardt R
 #=GF SE   RF01855
 #=GF GA   27.00 27.00;
-#=GF TC   29.40 29.30;
-#=GF NC   20.20 17.90;
 #=GF TP   Family
 #=GF TX   Eukaryota;
 #=GF BM   hmmbuild HMM.ann SEED.ann

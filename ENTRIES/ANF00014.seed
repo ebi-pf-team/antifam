@@ -6,10 +6,8 @@
 #=GF AU   Haft D, Eberhardt R
 #=GF SE   Haft D
 #=GF GA   28.00 28.00;
-#=GF TC   28.40 28.00;
-#=GF NC   27.80 27.90;
 #=GF TP   Family
-#=GF TX   Eukaryota; Bacteria; Archaea; Virus; unidentified;
+#=GF TX   Eukaryota; Bacteria; Archaea; Virus;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF CC   Arises from an alignment of translated bacterial tRNA, tRNA05.
 #=GF SQ   49   

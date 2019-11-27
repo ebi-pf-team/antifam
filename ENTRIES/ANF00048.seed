@@ -7,8 +7,6 @@
 #=GF AU   Pollington J, Finn RD
 #=GF SE   Pfam-B_003136 (release 23.0)
 #=GF GA   25.00 25.00;
-#=GF TC   35.40 35.30;
-#=GF NC   16.00 15.40;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family

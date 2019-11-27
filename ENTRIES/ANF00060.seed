@@ -6,8 +6,6 @@
 #=GF AU   Bateman A
 #=GF SE   Jackhmmer:Q5TZK3
 #=GF GA   27.00 27.00;
-#=GF TC   31.40 48.50;
-#=GF NC   25.10 22.40;
 #=GF TP   Family
 #=GF TX   Eukaryota;
 #=GF BM   hmmbuild HMM.ann SEED.ann

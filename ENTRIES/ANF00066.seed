@@ -4,10 +4,8 @@
 #=GF DE   Translation of palindromic DNA repeat
 #=GF DO   Delete protein
 #=GF AU   Hoeps W
-#=GF SE   Blast clustering of Pirellula proteome
+#=GF SE   Hoeps W
 #=GF GA   20.30 20.30;
-#=GF TC   20.40 60.70;
-#=GF NC   20.20 18.60;
 #=GF TX   Bacteria; 
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 26740544 -E 1000 --cpu 4 HMM pfamseq

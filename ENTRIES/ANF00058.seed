@@ -6,8 +6,6 @@
 #=GF AU   Jones T
 #=GF SE   Jones T
 #=GF GA   27.00 27.00;
-#=GF TC   27.30 183.20;
-#=GF NC   17.30 16.30;
 #=GF TP   Family
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann

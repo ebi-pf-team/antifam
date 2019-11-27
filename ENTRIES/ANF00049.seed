@@ -7,8 +7,6 @@
 #=GF AU   Pollington J
 #=GF SE   Pfam-B_4792 (release 23.0)
 #=GF GA   21.10 21.10;
-#=GF TC   23.20 21.30;
-#=GF NC   18.90 20.90;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family

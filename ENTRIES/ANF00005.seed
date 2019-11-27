@@ -7,12 +7,10 @@
 #=GF AU   Mistry J, Coggill P
 #=GF SE   PRODOM_PD293281
 #=GF GA   25.00 25.00;
-#=GF TC   25.30 29.60;
-#=GF NC   23.40 24.90;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family
-#=GF TX   Bacteria; Eukaryota;
+#=GF TX   Bacteria; Eukaryota; Archaea;
 #=GF DR   INTERPRO; IPR019636;
 #=GF CC   This family was originally annotated as a cell wall-associated
 #=GF CC   hydrolase, PF10695. The family was deleted from Pfam as it was

@@ -6,10 +6,8 @@
 #=GF AU   Haft D, Makarova K
 #=GF SE   Haft D, Makarova K
 #=GF GA   24.00 24.00;
-#=GF TC   25.00 24.50;
-#=GF NC   24.80 23.90;
 #=GF TP   Family
-#=GF TX   Bacteria; unidentified;
+#=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF CC   This is a translation of E. coli type (I-E type) CRISPR repeats. This
 #=GF CC   model is the translation of six repeats and five spacers, the sense of

@@ -6,8 +6,6 @@
 #=GF AU   Eberhardt R
 #=GF SE   Jackhmmer:C6YG65/Q1MYB0/Q6LME6
 #=GF GA   24.70 24.70;
-#=GF TC   24.70 24.70;
-#=GF NC   24.40 22.80;
 #=GF TP   Family
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann

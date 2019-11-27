@@ -1,0 +1,17 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_153
+#=GF AC   ANF00153
+#=GF DE   Shadow ORF (opposite rodA)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: M2WGC4
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Uncharacterized FtsW-like protein.
+#=GF SQ   2
+M2WGC4.1/332-404     VPEQQEHRGSGGHAHARPQQLAACGVRVH.QQVDPVDHRQAEAVEGHDDRQDVRIRVRGADPQDDMHEQGAAAQ
+A0A160P5R7.1/2-75    VADQQDDHDEQTDAQRRPHQLGRRRLVVRgLQVEPVDQGQAEAVEQDGDRQEQRIGVRGAQPDRDMGEQGEGAE
+//

@@ -7,8 +7,6 @@
 #=GF AU   Studholme DJ
 #=GF SE   Blast clustering of Pirellula proteome
 #=GF GA   25.00 25.00; 25.00 25.00;
-#=GF TC   247.30 247.30; 27.10 245.40;
-#=GF NC   -36.60 -36.60; 19.90 9.50;
 #=GF TP   Family
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild -o /dev/null HMM ANF00001.seed

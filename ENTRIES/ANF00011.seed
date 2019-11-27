@@ -6,8 +6,6 @@
 #=GF AU   Haft D, Eberhardt R
 #=GF SE   Haft D
 #=GF GA   25.00 25.00;
-#=GF TC   25.00 25.50;
-#=GF NC   24.90 24.60;
 #=GF TP   Family
 #=GF TX   Eukaryota; Bacteria; Archaea;
 #=GF BM   hmmbuild HMM.ann SEED.ann

@@ -1,0 +1,17 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_228
+#=GF AC   ANF00228
+#=GF DE   Shadow ORF (opposite rbsA1)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A086ZRE5
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Ribose import ATP-binding protein RbsA 1.
+#=GF SQ   2
+A0A162GQ99.1/14-61    FSPMLRLSVRRSSWNTAVMPAAFASAGPLNRRVTPSTTISPASGWWMP
+A0A086ZRE5.1/44-91    FSQTFNAGIRRISWNTKPIPSCLATDGDEMSTVLPSTDILPESGWYTP
+//

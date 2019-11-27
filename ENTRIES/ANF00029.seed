@@ -6,8 +6,6 @@
 #=GF AU   Lager S, Eberhardt R
 #=GF SE   PfamB:PB001237(26.0)
 #=GF GA   25.00 25.00;
-#=GF TC   25.60 28.70;
-#=GF NC   22.00 24.50;
 #=GF TP   Family
 #=GF TX   Eukaryota; Bacteria; Archaea;
 #=GF BM   hmmbuild HMM.ann SEED.ann

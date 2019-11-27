@@ -6,8 +6,6 @@
 #=GF AU   Hoeps W
 #=GF SE   Jackhmmer:D2TPE5
 #=GF GA   27.00 27.00;
-#=GF TC   27.10 27.30;
-#=GF NC   26.30 25.80;
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 17690987 -E 1000 --cpu 4 HMM pfamseq

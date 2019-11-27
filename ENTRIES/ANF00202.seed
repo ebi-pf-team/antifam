@@ -1,0 +1,17 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_202
+#=GF AC   ANF00202
+#=GF DE   Shadow ORF (opposite gacS)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A080LTN6
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Sensor protein GacS.
+#=GF SQ   2
+A0A011RCF0.1/61-113    ATVGHREVQIQLAISVSISAfQAQQHLPAGGEFDRVADQVEQHLAQATGVAEH
+G0ADE8.1/393-444       AGIADLQLQRQAAVLFLLHI.EADGDLAFLRELDGVADQVGQDLLEAHRVDQH
+//

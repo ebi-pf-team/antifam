@@ -6,8 +6,6 @@
 #=GF AU   Coggill P
 #=GF SE   Jackhmmer:Q5T1J6
 #=GF GA   27.00 27.00;
-#=GF TC   29.00 124.10;
-#=GF NC   25.00 17.90;
 #=GF TP   Family
 #=GF TX   Eukaryota;
 #=GF BM   hmmbuild HMM.ann SEED.ann

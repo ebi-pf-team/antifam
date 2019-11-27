@@ -7,12 +7,10 @@
 #=GF AU   Gunasekaran P, Mistry J
 #=GF SE   Pfam-B_001775 (release 23.0)
 #=GF GA   20.80 20.80;
-#=GF TC   20.80 20.80;
-#=GF NC   20.30 20.70;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Domain
-#=GF TX   Bacteria; unidentified;
+#=GF TX   Bacteria;
 #=GF WK   Domain_of_unknown_function
 #=GF DR   INTERPRO; IPR021360;
 #=GF CC   This family was originally annotated as DUF2825, PF11194. The family

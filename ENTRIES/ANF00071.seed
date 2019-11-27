@@ -7,8 +7,6 @@
 #=GF AU   Mistry J
 #=GF SE   Pfam-B_2194 (release 24.0)
 #=GF GA   25.00 25.00;
-#=GF TC   76.40 76.10;
-#=GF NC   24.60 24.00;
 #=GF BM   hmmbuild  -o /dev/null HMM SEED
 #=GF SM   hmmsearch -Z 45638612 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family

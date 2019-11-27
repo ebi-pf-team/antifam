@@ -6,8 +6,6 @@
 #=GF AU   Buljan M, Coggill P
 #=GF SE   TreeFamB_TF341410
 #=GF GA   27.00 27.00;
-#=GF TC   27.30 27.20;
-#=GF NC   26.90 26.70;
 #=GF TP   Family
 #=GF TX   Eukaryota;
 #=GF BM   hmmbuild HMM.ann SEED.ann

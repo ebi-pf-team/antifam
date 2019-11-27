@@ -6,8 +6,6 @@
 #=GF AU   Haft D
 #=GF SE   Haft D
 #=GF GA   27.00 27.00;
-#=GF TC   27.30 31.00;
-#=GF NC   25.80 26.00;
 #=GF TP   Family
 #=GF TX   Eukaryota; Bacteria; Virus;
 #=GF BM   hmmbuild HMM.ann SEED.ann

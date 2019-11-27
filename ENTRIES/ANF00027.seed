@@ -6,8 +6,6 @@
 #=GF AU   Eberhardt R   
 #=GF SE   RF00634
 #=GF GA   27.00 27.00;
-#=GF TC   36.40 36.10;
-#=GF NC   23.10 18.30;
 #=GF TP   Family
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann

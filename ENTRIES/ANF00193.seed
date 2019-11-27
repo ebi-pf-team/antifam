@@ -1,0 +1,19 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_193
+#=GF AC   ANF00193
+#=GF DE   Shadow ORF (opposite ilvB)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Blastx: A0A077M978
+#=GF GA   27.00 27.00;   
+#=GF TP   Family
+#=GF TX	  Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Acetolactate synthase large subunit.
+#=GF SQ   4
+Q2NI90.1/6-90          ........................TCPVRAITGDESIFAVAIPVTRFVAPGPLVAIHTPGFPDTLAYPSAACAAACSCLTSICF.ISQSYIESYNGRSTPPGYPNTVSVP
+A0A1M5VYI1.1/93-157    FVTGPAMEAMSTAWKSSLWSTPVGACPVMHRMGIESPRAEYSPVIMSVPAGPEVPTQTPMLPARA.............................................
+A0A0P0W9G9.1/1-41      ............................MATSGTESRWASASADTRLVAPGPEVATQTPGRPDERAYPD.........................................
+A0A077M978.1/3-112     FVIGIVMPRMSASWKASVPIARDETCPVMATIGTESMYASAIGVTRFVAPGPEVAIQTPTRPVAAAYPCAACPAPCSWRTRMWRTFVESISGSYAGKIAPPGSPNTVSAP
+//

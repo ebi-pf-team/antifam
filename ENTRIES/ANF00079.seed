@@ -1,0 +1,20 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_79
+#=GF AC   ANF00079
+#=GF DE   Shadow ORF (opposite rarA)
+#=GF DO   Delete protein
+#=GF AU   Syed MAS, Bateman A
+#=GF SE   Spurio: A0A011N203
+#=GF GA   27.00 27.00;
+#=GF TP   Family
+#=GF TX	  Bacteria
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This entry is a shadow ORF found on the opposite strand to
+#=GF CC   Replication-associated recombination protein A.
+#=GF SQ   5
+A0A1A8XIU4.1/5-37       KIRSGSDRRKRDIGPPGKIPERRRQPDRRLPEL
+A0A011N203.1/496-528    RIRSGSDRRQVDLGRPGKLPERRRQPERRLPEL
+A0A011PRK8.1/5-37       KTRSKADRRKHDIGPPGKTPERRHKAERRLPEL
+A0A133XLQ1.1/10-41      R.ENGDDRRGVDLGPPSGWRERRRSVERRLPEV
+A0A011PMP6.1/57-89      RVRSGSDRRQNDLGRPGKLPERRRQPERRLPEL
+//

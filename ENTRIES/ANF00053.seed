@@ -6,8 +6,6 @@
 #=GF AU   Haft D
 #=GF SE   Haft D
 #=GF GA   21.40 21.40;
-#=GF TC   24.10 36.80;
-#=GF NC   20.70 16.60;
 #=GF TP   Family
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann

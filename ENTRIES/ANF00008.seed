@@ -7,12 +7,10 @@
 #=GF AU   Pollington J
 #=GF SE   Pfam-B_001950 (release 23.0)
 #=GF GA   21.00 21.00;
-#=GF TC   21.00 21.10;
-#=GF NC   20.90 20.90;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family
-#=GF TX   unidentified;
+#=GF TX   Bacteria;
 #=GF WK   Domain_of_unknown_function
 #=GF DR   INTERPRO; IPR021680;
 #=GF CC   This family was originally annotated as DUF3264, PF11664. The family

@@ -2,13 +2,11 @@
 #=GF ID   Spurious_ORF_07 
 #=GF AC   ANF00007
 #=GF PI   DUF3170
-#=GF DE   Shadow ORF
+#=GF DE   Shadow ORF (opposite clpB)
 #=GF DO   Delete protein
 #=GF AU   Pollington J, Finn RD
 #=GF SE   Pfam-B_4403 (release 23.0)
 #=GF GA   20.70 20.70;
-#=GF TC   68.20 66.30;
-#=GF NC   19.10 18.80;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
 #=GF TP   Family

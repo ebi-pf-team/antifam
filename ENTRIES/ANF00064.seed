@@ -6,8 +6,6 @@
 #=GF AU   Hoeps W
 #=GF SE   PFAM-B_3612 (release 23.0)
 #=GF GA   27.20 27.20;
-#=GF TC   30.90 36.40;
-#=GF NC   27.00 27.10;
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild HMM.ann SEED.ann
 #=GF TP   Family
