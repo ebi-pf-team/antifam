@@ -57,10 +57,9 @@ my @bacteria_set;
 my @eukaryota_set;
 my @virus_set;
 my @archaea_set;
-my @unknown_set;
 
 #populate the arrays with the file names for the entries which will go in each tax-specific set
-foreach my $file (@list){
+foreach my $file (sort @list){
   open (FILE, "$antifam_root/ENTRIES/$file") or die "cannot open $!\n";
   while(<FILE>){
     if (/^\#=GF\sTX.+Eukaryota.+$/){
@@ -71,8 +70,6 @@ foreach my $file (@list){
       push (@archaea_set, $file);
     } if (/^\#=GF\sTX.+Virus.+$/){
       push (@virus_set, $file);
-    } if (/^\#=GF\sTX.+unidentified.+$/){
-      push (@unknown_set, $file);
     }
   }
   close(FILE);
@@ -81,7 +78,7 @@ foreach my $file (@list){
 #catenate seed files for all of antifam
 my $num_entries=0;
 print STDERR "Catenating seed files\n";
-foreach my $file (@list){
+foreach my $file (sort @list){
   if ($file =~ /(.*\.seed$)/){
     system ("cat $antifam_root/ENTRIES/$file >> $release_dir/AntiFam.seed");
     $num_entries++;
@@ -91,7 +88,7 @@ foreach my $file (@list){
 #catenate seed files for tax-specific sets
 my $num_eukaryota=0;
 print STDERR "Catenating eukaryote seed files\n";
-foreach my $entry (@eukaryota_set){
+foreach my $entry (sort @eukaryota_set){
   if ($entry =~ /(.*\.seed$)/){
     system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Eukaryota.seed");
     $num_eukaryota++;
@@ -99,7 +96,7 @@ foreach my $entry (@eukaryota_set){
 }
 my $num_bacteria=0;
 print STDERR "Catenating bacteria seed files\n";
-foreach my $entry (@bacteria_set){
+foreach my $entry (sort @bacteria_set){
   if ($entry =~ /(.*\.seed$)/){
     system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Bacteria.seed");
     $num_bacteria++;
@@ -108,7 +105,7 @@ foreach my $entry (@bacteria_set){
 
 my $num_archaea=0;
 print STDERR "Catenating archaea seed files\n";
-foreach my $entry (@archaea_set){
+foreach my $entry (sort @archaea_set){
   if ($entry =~ /(.*\.seed$)/){
     system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Archaea.seed");
     $num_archaea++;
@@ -117,21 +114,13 @@ foreach my $entry (@archaea_set){
 
 my $num_virus=0;
 print STDERR "Catenating virus seed files\n";
-foreach my $entry (@virus_set){
+foreach my $entry (sort @virus_set){
   if ($entry =~ /(.*\.seed$)/){
     system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Virus.seed");
     $num_virus++;
   }
 }
 
-my $num_unidentified=0;
-print STDERR "Catenating unidentified seed files\n";
-foreach my $entry (@unknown_set){
-  if ($entry =~ /(.*\.seed$)/){
-    system ("cat $antifam_root/ENTRIES/$entry >> $release_dir/AntiFam_Unidentified.seed");
-    $num_unidentified++;
-  }
-}
 
 # Should really strip out GA lines as these may be for previous HMMER releases!
 chdir $release_dir;
@@ -152,16 +141,12 @@ system ("hmmbuild AntiFam_Archaea.hmm AntiFam_Archaea.seed");
 print STDERR "Building HMM library, Virus\n";
 system ("hmmbuild AntiFam_Virus.hmm AntiFam_Virus.seed");
 
-print STDERR "Building HMM library, Unidentified\n";
-system ("hmmbuild AntiFam_Unidentified.hmm AntiFam_Unidentified.seed");
-
 # Make binary HMM libraries
 system ("hmmpress AntiFam.hmm");
 system ("hmmpress AntiFam_Eukaryota.hmm");
 system ("hmmpress AntiFam_Bacteria.hmm");
 system ("hmmpress AntiFam_Archaea.hmm");
 system ("hmmpress AntiFam_Virus.hmm");
-system ("hmmpress AntiFam_Unidentified.hmm");
 
 # Copy relnotes to dir and add the number of entries to it
 my $old_relnotes = "$antifam_root/RELEASES/$old_release/relnotes";
@@ -205,7 +190,7 @@ close FH;
 
 # Make tar file - putting all hmms/seeds in one. Could later split to do tax specific tars
 print STDERR "Tar up release files\n";
-system("tar -cvf AntiFam_$release.tar AntiFam.seed AntiFam_Eukaryota.seed AntiFam_Bacteria.seed AntiFam_Archaea.seed AntiFam_Virus.seed AntiFam_Unidentified.seed AntiFam.hmm AntiFam_Eukaryota.hmm AntiFam_Bacteria.hmm AntiFam_Archaea.hmm AntiFam_Virus.hmm AntiFam_Unidentified.hmm relnotes version");
+system("tar -cvf AntiFam_$release.tar AntiFam.seed AntiFam_Eukaryota.seed AntiFam_Bacteria.seed AntiFam_Archaea.seed AntiFam_Virus.seed AntiFam.hmm AntiFam_Eukaryota.hmm AntiFam_Bacteria.hmm AntiFam_Archaea.hmm AntiFam_Virus.hmm relnotes version");
 if (-e "AntiFam_$release.tar"){
   system("gzip AntiFam_$release.tar");
 } else {
@@ -216,7 +201,7 @@ if (-e "AntiFam_$release.tar"){
 chdir($dir) or die "Couldn't chdir $dir, $!"; 
 my $options = "-q ".$conf->{farm}->{lsf}->{queue}." -M 2000 -R \"rusage[mem=2000]\"";
 
-foreach my $type (qw/All Archaea Bacteria Eukaryota Unidentified Virus/) {
+foreach my $type (qw/All/) {
   print STDERR "Submitting $type hmmsearch to farm\n";
   my $log_file = "$type.log";
 
@@ -230,7 +215,7 @@ foreach my $type (qw/All Archaea Bacteria Eukaryota Unidentified Virus/) {
     $output_file = "Antifam_"."$type.output";
   }
 
-  system("bsub $options -o $log_file -J$type 'hmmsearch --noali --cpu 4 -E 0.01 --domE 0.01 $release_dir/$hmm_file $uniprot > $output_file'");
+  system("bsub $options -o $log_file -J$type 'hmmsearch --noali --cpu 4 --cut_ga $release_dir/$hmm_file $uniprot > $output_file'");
 }
 
 
