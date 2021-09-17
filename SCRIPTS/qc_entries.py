@@ -52,7 +52,7 @@ def test_if_compulsory_entries_exit(path,filename, n_flaws):
     if not re.findall(r'(?<=\n#=GF\ )(BM)(?=[^\n])',f):
         logf.write("{0}     \"BM\" identifier missing or flawed (Value not a number?)\n".format(filename)); n_flaws+=1
     #TP
-    if not re.findall(r'(?<=\n#=GF\ )(TP)(?=\s+(?:Family|Domain|Motif))',f):
+    if not re.findall(r'(?<=\n#=GF\ )(TP)(?=\s+(?:Family|Domain|Motif|Repeat))',f):
         logf.write("{0}     \"TP\" identifier missing or flawed (Value not \"Family\" or \"Domain\"?)\n".format(filename)); n_flaws+=1
     #TX
     if not re.findall(r'(?<=\n#=GF\ )(TX)(?=\s+(?:Bacteria|Eukaryota|Bacteria|Archaea|Virus|unidentified))',f):
