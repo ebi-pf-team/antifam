@@ -1,0 +1,18 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_264
+#=GF AC   ANF00264
+#=GF DE   Spurious protein deried frameshifted phage protein
+#=GF AU   Bateman A
+#=GF SE   Haft D
+#=GF GA   25.00 25.00
+#=GF BM   hmmbuild  -o /dev/null HMM SEED
+#=GF TP   Family
+#=GF DO   Delete protein
+#=GF TX   Bacteria;
+#=GF CC   This entry is likely due to a frameshifted region of phage
+#=GF CC   proteins.
+#=GF SQ   3
+A0A083ZZA7.1/62-116    LPLAEGLQILIDWLQDNIDCHSTLIFDNDEKMTDSSKLLPCVEQALNMVLNLQSM
+W1G076.1/4-58          LTTEVALNILIGWLQDNISCNTGIIFDNDEDKTDSAVLLPWIEQARNDVRNLRHL
+A0A097QYR7.1/4-58      LTTEAALNILIGWLQDNIDCGSEIIFDNDEDNTDSAVLLPWIERTLQDVRDLHHL
+//

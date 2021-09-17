@@ -1,0 +1,15 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_257
+#=GF AC   ANF00257
+#=GF DE   Protein of unknown function (DUF1560)
+#=GF AU   Studholme DJ
+#=GF SE   Pfam:PF07597
+#=GF GA   25.00 25.00;
+#=GF BM   hmmbuild  -o /dev/null HMM SEED
+#=GF TP   Motif
+#=GF DO   Delete protein
+#=GF TX   Bacteria;
+#=GF CC   This entry was derived from Pfam:PF07597, and is likely to be a DNA repeat.
+#=GF SQ   1
+Q7UUU5.1/42-90    CTLGFLHPTSFAKRSRWECRRFEAKHPLSKNISVRSAEISVPLAALAEH
+//

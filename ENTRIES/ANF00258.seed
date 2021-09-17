@@ -1,0 +1,17 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_258
+#=GF AC   ANF00258
+#=GF DE   Domain of unknown function (DUF1196)
+#=GF AU   Moxon SJ
+#=GF SE   Pfam-B_23162 (release 10.0)
+#=GF GA   21.70 21.70
+#=GF BM   hmmbuild  -o /dev/null HMM SEED
+#=GF TP   Motif
+#=GF DO   Delete protein
+#=GF TX   Bacteria;
+#=GF CC   This entry was derived from Pfam:PF06709, and is likely an intergenic
+#=GF CC   region.
+#=GF SQ   2
+Q9KMD4.1/1-51    MTVPLEAFVMCVFLMPTLPFKGVAKGIYAKQHSIKNYHIHKTKMLHVDIFR
+Q9KML8.1/1-51    MTVPLEAFVMCVFLMPTLPFKGVAKGIYAKQHSIKSHHIHKTKMLHIDIFR
+//

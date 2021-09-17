@@ -1,0 +1,18 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_252
+#=GF AC   ANF00252
+#=GF DE   Shadow ORF (formerly DUF1590)
+#=GF AU   Bateman A
+#=GF DO   Delete protein
+#=GF SE   Dan Haft
+#=GF GA   25.00 25.00;
+#=GF BM   hmmbuild  -o /dev/null HMM SEED
+#=GF TP   Family
+#=GF TX   Bacteria;
+#=GF CC   This entry was formerly in Pfam as DUF1590 PF07629. It contains spurious
+#=GF CC   shadow ORFs from Rhodopirellula baltica that are opposite transposon
+#=GF CC   proteins.
+#=GF SQ   2
+Q7UX98.1/1-32       MGSGAHYPPPEISLNALFPTPPAARAGFSRLY
+Q7UKK9.1/170-201    MENGADCPPPEISLNARFPTPPAAQARFSRVL
+//

@@ -1,0 +1,42 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_263
+#=GF AC   ANF00263
+#=GF DE   Spurious protein deried from human HSATII repeats
+#=GF AU   Bateman A
+#=GF SE   Salzberg S
+#=GF GA   27.00 27.00
+#=GF BM   hmmbuild  -o /dev/null HMM SEED
+#=GF TP   Family
+#=GF DO   Delete protein
+#=GF TX   Bacteria;
+#=GF CC   This entry is derived contamination of bacterial genomes with
+#=GF CC   human HSATII DNA repeats.
+#=GF SQ   27
+A0A044RXU5.1/1-87     MESSS..................................NELNAI.IEW........................SRMESSSNGMEWN.HRMESNGIIIEWNRMES.SNGIEWNHHRMES......NGII.KWTRMESSNGL....................................................EWNH................HPTEANGINIE
+A0A2G9DB95.1/1-76     MESSS..................................NELNAI.IEW........................SRMESSSNGMEWN.HRIESNGIIIEWNRMESTSNGIEWN.YRMES......NRII.EWTRMESSNGM....................................................EWNN...........................
+A0A287QPF9.1/1-69     MESSPNIIKRNHQ..........................MDSNRI.IEW........................TRMESSSNGIKWN.HQMDSNEIIIKRNRMES.LNGMEWNHHQMES......NGII...............................................................................................
+A0A255S3Z9.1/1-60     ............................................................................TASSNGMERNHHGIDSNGII.EWNGMESSKKGIEGN.HRMES......NGII.EWNGKESS...................................................................WNRLEWN.H..........
+A0A287P3Q7.1/1-94     MESS.NGIEWNHR..........................MDLNRINIEWNXXXXXXXXEWNHLMHSNGIIIECNRMDS.SNGIKWN.HQMESNGIIIKRNRMES.LNGIKGNHGRMES......NGDIIE.............................................................................................
+A0A371IIL1.1/1-102    MESSS..................................NELNAI.IEW........................SRMESSSNGMEWN.HRIESNGIIIEWNRMVSTPNGKKRN.YRMES......KRIF.ERTRMESSNGM....................................................EWNNPWTRMQSSSNGIEWN.HRMDSNGIIIC
+G3IQE4.1/1-62         MESS.NGMEWN...................................NPW........................TRMQSSSNGIEWN.HRMDSNGIIIERNRMESSSDGNEWNHHRMES......NRIM.E.............................................................................................
+A0A287HR83.1/1-102    MESSS..................................NELNAI.IEW........................SRMESSSNGKEWN.HRIESNGIIIEWNRMVSTPNGKKRN.YRMES......KRIF.ERTRMESSNGM....................................................EWNNPWTRMQSSSNGMEWN.HRMDSNGIIIE
+A0A1V4KFT4.1/1-95     MDSS.NGVEWNHHR.........................MVSNGI.MEW........................NQMESSWNGIERN.HRMESNGIFLERNRMES.SNGHEWXXXXMES......NGTI.KFNRMEPL....................................................................NGLEMNRHRMESNGIIEG
+A0A287QPF5.1/6-148    MDSSSNGFEWNHRIKLIEIIIKWNRMVSLNGIEWNHHQ.MEMNGIVIEWNRMDSLNGIRWNHRMDWNGIIEW.TRKGSLLNGIEWN.HRMVSIGIIIKWNRMES.PNRIEWNNHRMDS......NGIILKWNRMELS....................................................................NAIEWN.YRMQSNR.IIE
+A0A287QPS8.1/7-119    MESSLNGIKGNHHRISSNGVIIIWNRVEALSGLKRNHRSMELNGI.IKW........................TRMESSSSGIKWN.HRMDTNQIIVEWNRMES.SNGLEGNHYRMEL......NEIIIEWSRMESS...................................................................SNGVEWK.HH.........
+A0A0D3AH13.1/1-66     MELSSNGIEWNQYQ.........................TEKNGI.IEW........................NRRES.SNGPEWN.HLMEWNGII..........HGLECNHHRMES......NGII.EWTRME........................................................................................
+A0A287IB17.1/6-137    MDSSSNGFEWNHRIKLIEIIIEWNRMVSLNGIEWNHHQ.MEMNGIVIEWNRMDSLNGIRWNHRMDWNGIIEW.TRKGSLLNGIEWN.HRMVSIGIIIKWNRMES.PNRIEWNNHRMDS......NGIILKWNRMELS....................................................................NAIEW.............
+A0A0V1LZ07.1/1-77     MESSSNGIKLS....................................................................TNGIEWN.LRMESNGIIIELNPMES.LNGLEWN.HRMES......NGIIIEWNQMESS....................................................................NGIEWN.HRMESNVIIIK
+A0A1V4KFV7.1/1-81     .......................................MDSNGALIEC........................NKRES.PNALKWD.DRIASNCIIMKWNRMES.SHGLECN.HQMDS......KGIIIKWNRVKSS....................................................................NGLECH.HRMWSNGIIIE
+A0A1B8J9M3.1/1-102    MESSS..................................NELNAI.IEW........................SRMESSSNGKEWN.HRIESNGIIIEWNRMVSTSNGKKRN.YRMES......KRII.EWTRMESSNGM....................................................EWNNPWTRMQSSSNGIEWN.HRMDSNGIIIE
+A0A287QPW3.1/1-91     MESS.NGIEWNHRR.........................MESNGI.IKW........................NLMESSSNGFKWNHFRIESNGII.............EWNHHQMESRGITELNGIIIEWNRIESS....................................................................HGIKWNYHQMESNDIIEC
+A0A0V1LZP1.1/1-70     ....................................................................................MN.HRMQSKGIINECNHMESSQNGIVGNHHRMES......NGII.EWTRMESSSNG...........................................................IKESSSNGIEWN.HQLDSNG.NIK
+A0A151UDC0.1/1-58     ........................................................................................RMVSIGIIIKWNRMES.PNRIEWNNHRMDS......NGIILQWNRMELS....................................................................NAIEWN.YRMQSNR.IIE
+A0A1T1GTM3.1/1-102    MESSS..................................NELNAI.IEW........................SRMESSSNGKEWN.HRIESNGIIIEWNRMESTSNGKKRN.YRMES......KRII.EWTRMESSNGM....................................................EWNNTRARMQSSSYRIEWN.HRMYSNGIIIE
+A0A287P2P5.1/1-81     MESL.NGMEWNHQR.........................KESKGI.IEW........................NQTES.SNGMEWNHHRMDSNGIIFERN..............RMES......NGTI.KWTPMESS....................................................................NGIEWN.HXMDSNGVIIQ
+M7C3Y0.1/13-105       MESSQNGIVRNHHR.........................MELNGI.INW........................TRMES.SNGIDWK.CRMDSNEIIIEWNRMES.SKGLESN.PKMDS......NGII.ECTPMEST...................................................................SNGPYRN.DQMDSNG.IIE
+A0A265N6C6.1/1-102    MESSS..................................NELTAI.IEW........................SRMESSSNGKEWN.HRIESNGIIIEWNRMESTSNGKKRN.YRMES......KRIF.ERTQMESSNGI....................................................EWNNPWTRMQSSSNGIEWN.HQMDSNGIIIE
+A0A287QQ32.1/1-95     MESSPNIIKRNHQ..........................MDSNRI.IEW........................TRMESSSNGIKWN.HQMDSNEIIIKRNRMES.LNGMEWNHHGMET......SGIT.EWTRMGSS...................................................................SNGIEWN.HLMNLKGIIIK
+A0A044RXU1.1/1-149    .......................................MELNGI.IEW........................SRMESSSNGMEWN.HRIESNGIIIEWNRMESTSNGKKRN.YRMES......KRII.ERTRMESSNGMEWNNPWTRMQSSSNGIEWNHHRMESNGIKWNYPQMESNGIIECNRMELSNAIEWNNPWTRMQSSSNGIEWN.HRMDSNGIIIE
+A0A287QPV8.1/1-91     MESS.IGLEWXHQ..........................MESIGS.VEW........................TRMKSSSSGIEWN.HRKDSNQII.KWTRMES.SNALQWNQHRMDP......TGMI.KWTRMESL....................................................................NGNEWN.HWLDSNG.IIE
+A0A3L8I366.1/1-102    MESSS..................................NELTAI.IEW........................SRMESSSNGMEWN.HRIESNGIITEWNRMESTSNGKKRN.YRMES......KRII.EWTRMESSNGM....................................................EWNNPWTRMQSSSNGIEWN.HRMDSNEIIIE
+//

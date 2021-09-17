@@ -1,0 +1,23 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_262
+#=GF AC   ANF00262
+#=GF DE   Sheep genome contamination of bacterial genome
+#=GF AU   Bateman A
+#=GF SE   Steinegger M
+#=GF GA   27.00 27.00
+#=GF BM   hmmbuild  -o /dev/null HMM SEED
+#=GF TP   Family
+#=GF DO   Delete protein
+#=GF TX   Bacteria;
+#=GF RN   [1]
+#=GF RM   32398145
+#=GF RT   Terminating contamination: large-scale search identifies more than
+#=GF RT   2,000,000 contaminated entries in GenBank.
+#=GF RA   Steinegger M, Salzberg SL;
+#=GF RL   Genome Biol. 2020;21:115.
+#=GF CC   This entry is derived contamination of bacterial genomes with
+#=GF CC   sequence from the sheep genome [1].
+#=GF SQ   2
+A0A1Y4D9J8.1/1-68    MGLISPGGQNLLDFLELRQVLSTYDGALRDPLWWPQERPVPMRVPRGPFGIPLPlMPGPKTLCELRAG
+A0A1Y3XSE0.1/1-68    MGLISPGGQNLLDFLELRQVLSTYDGALRDPLWWPQERPVPMRVPRGPFGIPLPlMPGPKTLCELRAG
+//
