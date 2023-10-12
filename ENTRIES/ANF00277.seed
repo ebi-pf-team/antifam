@@ -1,0 +1,20 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_277
+#=GF AC   ANF00277
+#=GF DE   Spurious ORF (formerly Pfam entry PF11665)
+#=GF DO   Delete protein
+#=GF AU   Bateman A, Haft D
+#=GF SE   PF11665
+#=GF GA   25.0; 25.0
+#=GF TC   25.50 27.60;   
+#=GF NC   23.70 24.50;
+#=GF TP   Domain
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This spurious protein was formerly a Pfam entry. They are
+#=GF CC   attC repeats from Vibrio species.
+#=GF SQ   3
+Q87NR5.1/3-30     RHAWHFSYALALVVKVVCGNIGIACLTP
+Q87NQ8.1/65-92    SARVAFLLCVGFGVEVQCGGLVIACFTP
+Q87NN5.1/6-33     SARVAFLVCGGFGVEVVCGNIGIACFTP
+//
