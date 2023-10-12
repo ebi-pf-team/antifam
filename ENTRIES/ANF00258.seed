@@ -4,7 +4,7 @@
 #=GF DE   Domain of unknown function (DUF1196)
 #=GF AU   Moxon SJ
 #=GF SE   Pfam-B_23162 (release 10.0)
-#=GF GA   21.70 21.70
+#=GF GA   21.70 21.70;
 #=GF BM   hmmbuild  -o /dev/null HMM SEED
 #=GF TP   Motif
 #=GF DO   Delete protein

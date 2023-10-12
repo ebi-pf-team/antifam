@@ -5,9 +5,7 @@
 #=GF DO   Delete protein
 #=GF AU   Bateman A, Haft D
 #=GF SE   PF11665
-#=GF GA   25.0; 25.0
-#=GF TC   25.50 27.60;   
-#=GF NC   23.70 24.50;
+#=GF GA   25.0; 25.0;
 #=GF TP   Domain
 #=GF TX   Bacteria;
 #=GF BM   hmmbuild -o /dev/null HMM SEED

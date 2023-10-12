@@ -4,7 +4,7 @@
 #=GF DE   Spurious protein deried from human HSATII repeats
 #=GF AU   Bateman A
 #=GF SE   Salzberg S
-#=GF GA   27.00 27.00
+#=GF GA   27.00 27.00;
 #=GF BM   hmmbuild  -o /dev/null HMM SEED
 #=GF TP   Family
 #=GF DO   Delete protein

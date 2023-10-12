@@ -5,7 +5,7 @@
 #=GF AU   Pollington J;0000-0002-8158-8998
 #=GF AU   Finn RD;0000-0001-8626-2148
 #=GF SE   PRODOM
-#=GF GA   20.80 20.80
+#=GF GA   20.80 20.80;
 #=GF BM   hmmbuild  -o /dev/null HMM SEED
 #=GF TP   Family
 #=GF DO   Delete protein

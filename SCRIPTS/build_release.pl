@@ -1,4 +1,4 @@
-#! /usr/local/bin/perl
+#! /usr/bin/perl
 
 use strict;
 use warnings;
@@ -7,7 +7,7 @@ use Config::General;
 
 # Scripts to build a release of AntiFam
 
-my $antifam_root='/nfs/production/xfam/antifam';
+my $antifam_root='/nfs/production/agb/antifam';
 
 my $release=shift @ARGV;
 
