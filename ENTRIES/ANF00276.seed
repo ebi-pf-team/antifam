@@ -1,0 +1,21 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_276
+#=GF AC   ANF00276
+#=GF DE   Spurious ORF (formerly PSRT domain)
+#=GF DO   Delete protein
+#=GF AU   Bateman A
+#=GF SE   PF07636
+#=GF GA   25.0; 25.0
+#=GF TC   25.50 27.60;   
+#=GF NC   23.70 24.50;
+#=GF TP   Domain
+#=GF TX   Bacteria;
+#=GF BM   hmmbuild -o /dev/null HMM SEED
+#=GF CC   This spurious protein was formerly called the PSRT domain in
+#=GF CC   Pfam.
+#=GF SQ   4
+Q7UXU3.1/1-32     MGNTRHFSCRTSPSRTPERHRSIFPQTRFRER
+Q7UNA8.1/30-61    RANLATYHARPPPSRTPERRRSTSPQTSFRER
+Q7ULR1.1/7-38     RGTRVTSHARPSPSRTAERRRSSSPQTSVRER
+Q7UYC6.1/22-53    EGNTRHFHARPSPSRTPERRRSTLYIALPKLR
+//
