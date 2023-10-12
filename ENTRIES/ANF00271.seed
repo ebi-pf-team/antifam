@@ -1,0 +1,29 @@
+# STOCKHOLM 1.0
+#=GF ID   Spurious_ORF_271
+#=GF AC   ANF00271
+#=GF DE   Translation of CRISPR region
+#=GF DO   Delete protein
+#=GF AU   Bateman A
+#=GF SE   PMID:33206958
+#=GF GA   28.00 28.00;
+#=GF BM   hmmbuild HMM.ann SEED.ann
+#=GF SM   hmmsearch -Z 11384036 -E 1000 --cpu 4 HMM pfamseq
+#=GF TP   Family
+#=GF TX   Archaea;
+#=GF CC   This family is a translation of DNA regions that
+#=GF CC   are CRISPR repeat regions.
+#=GF SQ   13
+W6PW55.1/1-245          ........................................MEGFSWVLQWSHVFSDMVRPL.KGREIKRPNQLQWSHVFSDMVRHLEPLHVCRIAPASMEPCLFRHGKGSGQPGPGDAERASMEPCLFRHGKVHRAFPLRVGRV..ASMEPCLFRHGKEKLAEVGETTTL......ASMEPCLFRHGKGLRRYKMAHRHAGLQWSHVFSDMVSWIRPSSRKNTHMLQWSHVFSDMVSGRISSTPT
+W6PPR8.1/1-245          M......................LQWSHVFSDMVRLKPPSIVIPTHSLQWSHVFSDMVRRE.MRMAAEESFGLQWSHVFSDMVSICHHDDMPPAPCAS........................MEPCLFRHGKPVGRAPAVLRRA................................ASMEPCLFRHGKLPKHWRHVSAGPGLQWSHVFSDMVRRLS.........VEVIMLPLERFNGAMSFQTW
+A0A0X8XYI8.1/1-245      MEPCLFRHGKARPPSRLLCRLERLQWSHVFSDMVSATLILPYDTSNPLQWSHVFSDMVRLL.EEFGVDESLRLQWSHVFSDMVR.......................................ELPFVR...............................................DLIAFC....................................................SFNGAMSFQTW
+A0A0X8XY60.1/1-245      ..........................................................................................................................MEPCLFRHGK..........................EKLAEVGETTTL......ASMEPCLFRHGKGLRRYKMAHRHAGLQWSHVFSDMVSWIRPSSRKNTHMLQWSHVFSDMVSGRISSTPT
+A0A110BIJ4.1/1-245      .......................................................................MLQWSHVFSDMVRAGVD.DLDPLGLVAS.......................MEPCLFRHGKEQVRILPLVLIE..ASMEPCLFRHGKRSRNRRSRRPSR......ASMEPCLFRHGKRLP..................................IYNPTTRRSSFNGAMSFQTW
+A0A0X8XYT2.1/1-245      MEPCLFRHGKFHPSLRGPLR..........................................................................GRASMEPCLFRHGKLCDAPGGVVVPVASMEPCLFRHGKREYRDAADLPVT..ASMEPCLFRHGKAGRSRTGSGRVR......ASMEPCLFRHGKKIL..................................IGRSASSSASFNGAMSFQTW
+A0A0X8XYR1.1/1-245      ................................MVRESDRCNTFPLSLLQWSHVFSDMVRAEVERDPATSHVWLQWSHVFSDMVRPQLYIYQKYISTAS........................MEPCLFRHGKLHHKVDIFDVILD...............................ASMEPCLFRHGKLML....................................................IH
+A0A0X8XYP9.1/1-245      ................................................................MSLITSFWLQWSHVFSDMVRWGVSMIMIKIQIIAS.......................MEPCLFRHGKEHAVIP...........................EHPSHLA....ASMEPCLFRHGKSAP..................................RERCRGAGTGFNGAMSFQTW
+A0A110BIJ3.1/1-245      M..............TLIRSVWWLQWSHVFSDMVRSRSAFSRSSSSRLQWSHVFSDMVSDR.EIVALVVRLVLQWSHVFSDMVSDY....................................RYTTLLRGGV............................................ASMEPCLFRHGKLEE..................................MKMNLENFGSFNGAMSFQTW
+A0A0X8XY63.1/1-245      MEPCLFRHGKREDFQHPDLIGWVLQWSHVFSDMVRLKPPSIVIPTHSLQWSHVFSDMVRRE.MRMAAEESFGLQWSHVFSDMVSICHHDDMPPAPCAS........................MEPCLFRHGKPVGRAPAVLRRA................................ASMEPCLFRHGKLPKHWRHVSAGPGLQWSHVFSDMVRRLS.........VEVIMLPLERFNGAMSFQTW
+A0A0X8XZC1.1/1-245      ..........................................................................................................................MEPCLFRHGKWINRLKMQVRYGICASMEPCLFRHGKDN.....PTPAFCVQIANASMEPCLFRHGKTEQ..................................PTGWPTEPPSFNGAMSFQTW
+W6PR05.1/1-245          ........................................................................MRHSIAFRAGAS......................................MEPCLFRHGKPYLDIRIYRGYR..ASMEPCLFRHGKLELAHEDGPVRP......ASMEPCLFRHGKIVWDRVVHGVGDLLQWSHVFSDMVRGQR.........NGPGRMRISCFNGAMSFQTW
+W6PQK5.1/1-245          ................................MVRESDRCNTFPLSLLQWSHVFSDMVRAEVERDPATSHVWLQWSHVFSDMVRPQLYIYQKYISTAS........................MEPCLFRHGKLHHKVDIFDVILD...............................ASMEPCLFRHGKLML....................................................IH
+//
