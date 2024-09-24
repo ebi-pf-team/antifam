@@ -199,7 +199,7 @@ if (-e "AntiFam_$release.tar"){
 
 #Submit the hmmsearch jobs against uniprot to the farm
 chdir($dir) or die "Couldn't chdir $dir, $!"; 
-my $options = "-q ".$conf->{farm}->{lsf}->{queue}." -M 2000 -R \"rusage[mem=2000]\"";
+my $options = "--partition ".$conf->{farm}->{lsf}->{queue}." --mem=2000M";
 
 foreach my $type (qw/All/) {
   print STDERR "Submitting $type hmmsearch to farm\n";
@@ -215,7 +215,7 @@ foreach my $type (qw/All/) {
     $output_file = "Antifam_"."$type.output";
   }
 
-  system("bsub $options -o $log_file -J$type 'hmmsearch --noali --cpu 4 --cut_ga $release_dir/$hmm_file $uniprot > $output_file'");
+    system("sbatch $options -t 2:00:00 --output=$log_file --job-name=$type --wrap='hmmsearch --noali --cpu 4 --cut_ga $release_dir/$hmm_file $uniprot > $output_file'");
 }
 
 
